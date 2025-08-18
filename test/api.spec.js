@@ -31,7 +31,7 @@ test.describe('CERN Catalogue API - Advanced Tests', () => {
       }
     });
 
-    await page.goto('https://catalogue.library.cern/'); // or another URL that triggers API requests
+    await page.goto('https://catalogue.library.cern/');  
 
     // Wait a bit for any requests to finish
     await page.waitForTimeout(3000);

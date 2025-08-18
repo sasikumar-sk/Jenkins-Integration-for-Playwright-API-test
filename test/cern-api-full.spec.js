@@ -4,9 +4,7 @@ const fs = require('fs').promises;
 const path = require('path');
 
 const ajv = new Ajv();
-const outputDir = './api_responses';
-
-// Updated schema to reflect nested hits structure
+const outputDir = './api_responses'; 
 const responseSchema = {
   type: 'object',
   properties: {
