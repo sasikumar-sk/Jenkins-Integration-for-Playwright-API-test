@@ -1,0 +1,824 @@
+{
+  "aggregations": {
+    "access": {
+      "buckets": [
+        {
+          "doc_count": 1,
+          "key": 0,
+          "key_as_string": "false"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "availability": {
+      "buckets": [
+        {
+          "doc_count": 1,
+          "from": 1,
+          "key": "on shelf"
+        }
+      ]
+    },
+    "doctype": {
+      "buckets": [
+        {
+          "doc_count": 177,
+          "key": "BOOK"
+        },
+        {
+          "doc_count": 54,
+          "key": "MULTIMEDIA"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "language": {
+      "buckets": [
+        {
+          "doc_count": 230,
+          "key": "ENG"
+        },
+        {
+          "doc_count": 1,
+          "key": "ZHO"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "medium": {
+      "buckets": [
+        {
+          "doc_count": 177,
+          "key": "E-BOOK"
+        },
+        {
+          "doc_count": 54,
+          "key": "VIDEO"
+        },
+        {
+          "doc_count": 1,
+          "key": "AUDIOBOOK"
+        },
+        {
+          "doc_count": 1,
+          "key": "PAPER"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "relation": {
+      "buckets": [
+        {
+          "doc_count": 71,
+          "key": "serial"
+        },
+        {
+          "doc_count": 19,
+          "key": "edition"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "tag": {
+      "buckets": [],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    }
+  },
+  "hits": {
+    "hits": [
+      {
+        "created": "2025-03-11T10:16:23.181584+00:00",
+        "id": "zf80n-53j54",
+        "links": {
+          "self": "https://catalogue.library.cern/api/documents/zf80n-53j54"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "abstract": "Annotation A complete training package--full-color book and instructional\n                video--teaches you HTML5HTML5 boasts extensive new features that allow you to create\n                dynamic Web pages and present users with amazing multimedia experiences. This\n                personal training course uses a full-color book plus video tutorials to teach you\n                how to take full advantage of the new Web standard for creating rich multimedia\n                experiences. While learning at your own pace, you'll discover how to approach site\n                concept creation and bring your vision from the drawing board through to full\n                operability. The step-by-step directions, lesson files, and instructional videos\n                demonstrate the many exciting features of HTML5. HTML5 allows you to create dynamic\n                Web pages; this text-and-video package offers step-by-step training on its\n                abilitiesPresents 15 lessons in full color, supported by video tutorials and lesson\n                files, all of which allow you to work at your own paceDemonstrates how to code,\n                develop, and test Web sitesExplores the many ways the newest version of HTML differs\n                from previous iterationsYou'll feel like you have your own personal instructor\n                teaching you HTML5 with HTML5 Digital Classroom. Note: DVD and other supplementary\n                materials are not included as part of eBook file. These materials are available for\n                download upon purchase.",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "ocn759159318"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Osborn, Jeremy",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "ISBN": "9781118128763",
+            "urls": {
+              "is_placeholder": false,
+              "large": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9781118128763/LC.gif",
+              "medium": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9781118128763/MC.gif",
+              "small": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9781118128763/SC.gif"
+            }
+          },
+          "created_by": {
+            "type": "import",
+            "value": "safari"
+          },
+          "document_type": "BOOK",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": "",
+                "eitem_type": "E-BOOK",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": null,
+                "open_access": false,
+                "pid": "w2jfb-3bv21",
+                "urls": [
+                  {
+                    "description": "e-book",
+                    "login_required": false,
+                    "value": "https://learning.oreilly.com/library/view/-/9781118128770/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "identifiers": [
+            {
+              "material": "DIGITAL",
+              "scheme": "ISBN",
+              "value": "9781118128763"
+            },
+            {
+              "material": "DIGITAL",
+              "scheme": "ISBN",
+              "value": "1118128761"
+            },
+            {
+              "material": "PRINT_VERSION",
+              "scheme": "ISBN",
+              "value": "1283256177"
+            },
+            {
+              "material": "PRINT_VERSION",
+              "scheme": "ISBN",
+              "value": "9781283256179"
+            },
+            {
+              "material": "PRINT_VERSION",
+              "scheme": "ISBN",
+              "value": "9786613256171"
+            },
+            {
+              "material": "PRINT_VERSION",
+              "scheme": "ISBN",
+              "value": "661325617"
+            },
+            {
+              "material": "PRINT_VERSION",
+              "scheme": "ISBN",
+              "value": "1118016181"
+            },
+            {
+              "material": "PRINT_VERSION",
+              "scheme": "ISBN",
+              "value": "9781118016183"
+            }
+          ],
+          "imprint": {
+            "place": "Indianapolis, Ind",
+            "publisher": "John Wiley & Sons"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "languages": [
+            "ENG"
+          ],
+          "number_of_pages": "411",
+          "pid": "zf80n-53j54",
+          "publication_year": "2011",
+          "relations": {
+            "serial": [
+              {
+                "pid_type": "serid",
+                "pid_value": "4zqhg-4ny50",
+                "record_metadata": {
+                  "mode_of_issuance": "SERIAL",
+                  "title": "Digital classroom"
+                },
+                "relation_type": "serial"
+              }
+            ]
+          },
+          "stock": {
+            "mediums": [
+              "E-BOOK"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "LOC",
+              "value": "QA76.76.H94"
+            },
+            {
+              "scheme": "DEWEY",
+              "value": "006.7/4"
+            }
+          ],
+          "table_of_content": [
+            "Section 1. Essentials of HTML, HTML5, and CSS",
+            "section 2.\n                HTML5 with CSS3 and JavaScript."
+          ],
+          "title": "HTML5 digital classroom"
+        },
+        "updated": "2025-03-11T10:16:52.031138+00:00"
+      },
+      {
+        "created": "2025-01-13T15:32:59.315545+00:00",
+        "id": "4zq65-0ba61",
+        "links": {
+          "self": "https://catalogue.library.cern/api/documents/4zq65-0ba61"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "abstract": "See how XML works for business needs and RSS feeds. Create consistency on the Web, or tag your data for different purposes. Tag -- XML is it! XML tags let you share your format as well as your data, and this handy guide will show you how. You'll soon be using this markup language to create everything from Web sites to business forms, discovering schemas and DOCTYPES, wandering the Xpath, teaming up XML with Office 2003, and more.",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "on1477809522"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Dykes, Lucinda",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            },
+            {
+              "full_name": "Tittel, Ed",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "ISBN": "9780764588457",
+            "urls": {
+              "is_placeholder": false,
+              "large": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9780764588457/LC.gif",
+              "medium": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9780764588457/MC.gif",
+              "small": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9780764588457/SC.gif"
+            }
+          },
+          "created_by": {
+            "type": "import",
+            "value": "safari"
+          },
+          "document_type": "BOOK",
+          "edition": "4th",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": "",
+                "eitem_type": "E-BOOK",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": null,
+                "open_access": false,
+                "pid": "3jt1w-jmp13",
+                "urls": [
+                  {
+                    "description": "e-book",
+                    "login_required": false,
+                    "value": "https://learning.oreilly.com/library/view/-/9780764588457/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "identifiers": [
+            {
+              "material": "PRINT_VERSION",
+              "scheme": "ISBN",
+              "value": "9780764588457"
+            }
+          ],
+          "imprint": {
+            "place": "Hoboken, New Jersey",
+            "publisher": "Wiley Publishing, Inc"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "keywords": [
+            {
+              "source": "SAFARI",
+              "value": "XML (Document markup language"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "number_of_pages": "384",
+          "pid": "4zq65-0ba61",
+          "publication_year": "2025",
+          "relations": {
+            "serial": [
+              {
+                "pid_type": "serid",
+                "pid_value": "5eyv3-hmm13",
+                "record_metadata": {
+                  "mode_of_issuance": "SERIAL",
+                  "title": "For dummies"
+                },
+                "relation_type": "serial"
+              }
+            ]
+          },
+          "stock": {
+            "mediums": [
+              "E-BOOK"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "LOC",
+              "value": "QA76.76.H94"
+            },
+            {
+              "scheme": "DEWEY",
+              "value": "005.7/2"
+            }
+          ],
+          "title": "XML for dummies"
+        },
+        "updated": "2025-01-13T15:35:08.559928+00:00"
+      },
+      {
+        "created": "2024-08-12T12:06:30.517467+00:00",
+        "id": "740m7-emd89",
+        "links": {
+          "self": "https://catalogue.library.cern/api/documents/740m7-emd89"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "abstract": "In this course, you'll embark on a journey to master the\n                essentials of responsive web design, beginning with foundational principles and\n                progressing to advanced techniques. You'll start by exploring the fundamentals of\n                responsive design, understanding browser support, and diving into media queries.\n                From there, you'll learn to write effective HTML markup, including new semantic\n                elements in HTML5, and enhance accessibility with WCAG conformance and WAI-ARIA.\n                Next, you'll delve into the intricacies of media queries and container queries,\n                understanding their implementation and testing responsive designs. You'll convert\n                fixed pixel designs into fluid layouts and leverage the power of Flexbox and CSS\n                Grid for sophisticated, flexible designs. Advanced CSS selectors, typography, and\n                color techniques will be covered, along with responsive image handling and the use\n                of SVGs for scalable vector graphics. The final sections will take you through\n                transitions, transformations, and animations, along with cutting-edge CSS features\n                like custom properties and CSS functions. You'll also explore practical techniques\n                for HTML5 forms, advanced CSS capabilities, and performance optimization. This\n                course ensures you have the skills to create stunning, responsive websites that\n                stand out.",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "on1450899789"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Frain, Ben",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            },
+            {
+              "full_name": "Packt Publishing",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "created_by": {
+            "type": "import",
+            "value": "safari"
+          },
+          "document_type": "MULTIMEDIA",
+          "edition": "1st",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": "",
+                "eitem_type": "VIDEO",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": null,
+                "open_access": false,
+                "pid": "vt48b-4bb62",
+                "urls": [
+                  {
+                    "description": "video",
+                    "login_required": false,
+                    "value": "https://learning.oreilly.com/library/view/-/9781835887028/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "identifiers": [
+            {
+              "material": "VIDEO",
+              "scheme": "ISBN",
+              "value": "9781835887028"
+            },
+            {
+              "material": "VIDEO",
+              "scheme": "ISBN",
+              "value": "1835887023"
+            }
+          ],
+          "imprint": {
+            "place": "Birmingham, United Kingdom",
+            "publisher": "Packt Publishing"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "keywords": [
+            {
+              "source": "SAFARI",
+              "value": "HTML (Document markup language"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Cascading style sheets"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Web site development"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Web sites"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "pid": "740m7-emd89",
+          "publication_year": "2024",
+          "relations": {},
+          "stock": {
+            "mediums": [
+              "VIDEO"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "LOC",
+              "value": "QA76.76.H94"
+            },
+            {
+              "scheme": "DEWEY",
+              "value": "006.7/4"
+            }
+          ],
+          "title": "Responsive web design with HTML5 and CSS"
+        },
+        "updated": "2024-08-12T12:06:30.517472+00:00"
+      },
+      {
+        "created": "2024-07-22T11:16:52.988857+00:00",
+        "id": "9fykx-ebt16",
+        "links": {
+          "self": "https://catalogue.library.cern/api/documents/9fykx-ebt16"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "abstract": "In the revamped 2024 edition of Modern HTML & CSS From the\n                Beginning, you'll embark on a transformative journey through web development.\n                Starting with the basics, you'll gain a solid understanding of HTML and CSS,\n                exploring their roles and how they work together to create web pages. The course\n                includes essential tools like VS Code and practical techniques using live server and\n                Prettier for an optimized development environment. As you progress, you'll delve\n                into more complex HTML elements and CSS properties, mastering the box model,\n                positioning, and responsive design. Special sections on Flexbox and CSS Grid will\n                revolutionize the way you approach layouts, while advanced topics like transitions,\n                animations, and a touch of JavaScript will elevate your web pages to professional\n                standards. Each section is paired with hands-on projects, ensuring you apply what\n                you learn in real-world scenarios. By the end of the course, you'll have built\n                multiple projects, including a creative website and a tutor website, incorporating\n                accessibility features and deploying your sites using Git, GitHub, and hosting\n                platforms like Netlify and Vercel. This course is designed for both newcomers to web\n                development and seasoned professionals seeking to update their skills with the\n                latest industry standards.",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "on1444261373"
+            }
+          ],
+          "alternative_titles": [
+            {
+              "type": "ALTERNATIVE_TITLE",
+              "value": "Modern HTML and CSS from the beginning 2.0"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Traversy, Brad",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "created_by": {
+            "type": "import",
+            "value": "safari"
+          },
+          "document_type": "MULTIMEDIA",
+          "edition": "2nd",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": "",
+                "eitem_type": "VIDEO",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": null,
+                "open_access": false,
+                "pid": "zr43s-3vf46",
+                "urls": [
+                  {
+                    "description": "video",
+                    "login_required": false,
+                    "value": "https://learning.oreilly.com/library/view/-/9781835880562/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "identifiers": [
+            {
+              "material": "VIDEO",
+              "scheme": "ISBN",
+              "value": "9781835880562"
+            },
+            {
+              "material": "VIDEO",
+              "scheme": "ISBN",
+              "value": "1835880568"
+            }
+          ],
+          "imprint": {
+            "place": "Birmingham, United Kingdom",
+            "publisher": "Packt Publishing"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "keywords": [
+            {
+              "source": "SAFARI",
+              "value": "HTML (Document markup language"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Web sites"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Cascading style sheets"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "pid": "9fykx-ebt16",
+          "publication_year": "2024",
+          "relations": {},
+          "stock": {
+            "mediums": [
+              "VIDEO"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "LOC",
+              "value": "QA76.76.H94"
+            },
+            {
+              "scheme": "DEWEY",
+              "value": "006.7/4"
+            }
+          ],
+          "title": "Modern HTML & CSS from the beginning 2.0"
+        },
+        "updated": "2024-07-22T11:16:52.988862+00:00"
+      },
+      {
+        "created": "2024-07-18T12:48:32.728599+00:00",
+        "id": "vbf9a-6rr27",
+        "links": {
+          "self": "https://catalogue.library.cern/api/documents/vbf9a-6rr27"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "abstract": "Immerse yourself in the world of HTML5 Canvas with this\n                all-encompassing course, designed to turn you into a proficient creator of graphics\n                and animations. The course kicks off with an overview and a deep dive into the\n                Canvas element, setting the stage for a thorough understanding of its capabilities.\n                You'll start by learning how to draw basic lines and rectangles, progressing\n                step-by-step to more complex shapes like curves, arcs, and custom figures.\n                Throughout the course, you'll explore various drawing styles and colors, gaining the\n                ability to customize your graphics to match any desired aesthetic. Text rendering on\n                Canvas, gradient creation, and image manipulation, including applying filters, will\n                also be covered in detail. These skills will enable you to produce rich, vibrant\n                graphics that capture attention and convey information effectively. As you advance,\n                the course introduces transformations and clipping, essential techniques for\n                creating dynamic and interactive content. You'll learn to apply these\n                transformations to both shapes and images, expanding your creative toolkit. The\n                final modules involve building practical projects like particle systems and handling\n                user events, ensuring you can apply your knowledge in real-world scenarios.",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "on1441797444"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Dennison, Justin",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            },
+            {
+              "full_name": "Memos, Zachary",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            },
+            {
+              "full_name": "Smith, Vonne",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "created_by": {
+            "type": "import",
+            "value": "safari"
+          },
+          "document_type": "MULTIMEDIA",
+          "edition": "1st",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": "",
+                "eitem_type": "VIDEO",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": null,
+                "open_access": false,
+                "pid": "7xgkm-25883",
+                "urls": [
+                  {
+                    "description": "video",
+                    "login_required": false,
+                    "value": "https://learning.oreilly.com/library/view/-/9781836202578/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "identifiers": [
+            {
+              "material": "VIDEO",
+              "scheme": "ISBN",
+              "value": "9781836202578"
+            },
+            {
+              "material": "VIDEO",
+              "scheme": "ISBN",
+              "value": "1836202571"
+            }
+          ],
+          "imprint": {
+            "place": "Birmingham, United Kingdom",
+            "publisher": "Packt Publishing"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "keywords": [
+            {
+              "source": "SAFARI",
+              "value": "HTML (Document markup language"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Video games"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Computer animation"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "pid": "vbf9a-6rr27",
+          "publication_year": "2024",
+          "relations": {},
+          "stock": {
+            "mediums": [
+              "VIDEO"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "LOC",
+              "value": "QA76.76.H94"
+            },
+            {
+              "scheme": "DEWEY",
+              "value": "006.6/6"
+            }
+          ],
+          "title": "HTML5 Canvas graphics and animations"
+        },
+        "updated": "2024-07-18T12:48:32.728604+00:00"
+      }
+    ],
+    "total": 231
+  },
+  "links": {
+    "next": "https://catalogue.library.cern/api/documents/?sort=-created&q=((subjects.scheme%3A%22LOC%22+AND+subjects.value%3A%22QA76.76.H94%22))&size=5&page=2",
+    "self": "https://catalogue.library.cern/api/documents/?sort=-created&q=((subjects.scheme%3A%22LOC%22+AND+subjects.value%3A%22QA76.76.H94%22))&size=5&page=1"
+  }
+}

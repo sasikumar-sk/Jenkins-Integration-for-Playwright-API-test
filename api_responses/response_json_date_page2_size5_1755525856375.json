@@ -1,0 +1,1068 @@
+{
+  "aggregations": {
+    "access": {
+      "buckets": [
+        {
+          "doc_count": 6,
+          "key": 0,
+          "key_as_string": "false"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "availability": {
+      "buckets": [
+        {
+          "doc_count": 2,
+          "from": 1,
+          "key": "on shelf"
+        }
+      ]
+    },
+    "doctype": {
+      "buckets": [
+        {
+          "doc_count": 258,
+          "key": "BOOK"
+        },
+        {
+          "doc_count": 90,
+          "key": "MULTIMEDIA"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "language": {
+      "buckets": [
+        {
+          "doc_count": 347,
+          "key": "ENG"
+        },
+        {
+          "doc_count": 1,
+          "key": "POL"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "medium": {
+      "buckets": [
+        {
+          "doc_count": 256,
+          "key": "E-BOOK"
+        },
+        {
+          "doc_count": 90,
+          "key": "VIDEO"
+        },
+        {
+          "doc_count": 7,
+          "key": "AUDIOBOOK"
+        },
+        {
+          "doc_count": 2,
+          "key": "PAPER"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "relation": {
+      "buckets": [
+        {
+          "doc_count": 30,
+          "key": "serial"
+        },
+        {
+          "doc_count": 21,
+          "key": "edition"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "tag": {
+      "buckets": [
+        {
+          "doc_count": 1,
+          "key": "THESIS"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    }
+  },
+  "hits": {
+    "hits": [
+      {
+        "created": "2013-12-02T00:00:00+00:00",
+        "id": "8pp7v-wy768",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/8pp7v-wy768"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "_migration": {
+            "conference_title": "",
+            "eitems_ebl": [],
+            "eitems_external": [],
+            "eitems_file_links": [],
+            "eitems_has_ebl": false,
+            "eitems_has_external": false,
+            "eitems_has_files": false,
+            "eitems_has_proxy": false,
+            "eitems_has_safari": false,
+            "eitems_internal_notes": "SAF201402",
+            "eitems_open_access": false,
+            "eitems_proxy": [],
+            "eitems_safari": [
+              {
+                "url": {
+                  "description": "ebook",
+                  "value": "https://learning.oreilly.com/library/view/-/9781783286034/?ar"
+                }
+              }
+            ],
+            "has_journal": false,
+            "has_medium": false,
+            "has_related": false,
+            "has_serial": false,
+            "is_multipart": false,
+            "is_yellow_report": false,
+            "item_medium": [],
+            "items": [],
+            "journal_record_legacy_recids": [],
+            "record_type": "document",
+            "related": [],
+            "serials": [],
+            "tags": [],
+            "volumes": [],
+            "volumes_identifiers": [],
+            "volumes_urls": []
+          },
+          "abstract": "The book follows a tutorial-based approach and will teach you how to work with JSON tools, design JSON objects, and how to use different techniques to handle JSON data.This book is a great resource for developers who would like to learn more about JSON and who wish to apply it in their own projects. It will be useful to have some prior knowledge of HTML and JavaScript to help you understand the concepts covered in this book. Some familiarity with a server-side language such as PHP, C#, or Python would also be beneficial, but this is not compulsory.",
+          "agency_code": "SzGeCERN",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "9781783286034"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Sriparasa, Sai",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "ISBN": "9781783286034",
+            "urls": {
+              "is_placeholder": false,
+              "large": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9781783286034/LC.gif",
+              "medium": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9781783286034/MC.gif",
+              "small": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9781783286034/SC.gif"
+            }
+          },
+          "created_by": {
+            "type": "script",
+            "value": "batchuploader"
+          },
+          "document_type": "BOOK",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": null,
+                "eitem_type": "E-BOOK",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": "SAF201402",
+                "open_access": false,
+                "pid": "qtyre-mv521",
+                "urls": [
+                  {
+                    "description": "e-book",
+                    "value": "https://learning.oreilly.com/library/view/-/9781783286034/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "identifiers": [
+            {
+              "scheme": "ISBN",
+              "value": "9781783286034"
+            }
+          ],
+          "imprint": {
+            "date": "2013-01-01",
+            "place": "Birmingham",
+            "publisher": "Packt Publ."
+          },
+          "internal_notes": [
+            {
+              "value": "EBLlink deleted"
+            }
+          ],
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "keywords": [
+            {
+              "source": "EBL",
+              "value": "Functional programming (Computer science)"
+            },
+            {
+              "source": "EBL",
+              "value": "JavaScript (Computer program language)"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "legacy_recid": 1633742,
+          "number_of_pages": "120",
+          "pid": "8pp7v-wy768",
+          "provider_recid": "1633742",
+          "publication_year": "2013",
+          "relations": {},
+          "source": "SAF",
+          "stock": {
+            "mediums": [
+              "E-BOOK"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "LOC",
+              "value": "QA76.73.J39"
+            },
+            {
+              "scheme": "LOC",
+              "value": "QA76.76"
+            },
+            {
+              "scheme": "DEWEY",
+              "value": "005.2762"
+            }
+          ],
+          "table_of_content": [
+            "Cover",
+            "Copyright",
+            "Credits",
+            "About the Author",
+            "About the Reviewers",
+            "www.PacktPub.com",
+            "Table of Contents",
+            "Preface",
+            "Chapter 1: JavaScript Basics",
+            "Variables in JavaScript",
+            "Arrays",
+            "Objects",
+            "The Carousel application",
+            "Summary",
+            "Chapter 2: Getting Started with JSON",
+            "Hello World program with JSON",
+            "Datatypes in JSON",
+            "Languages that support JSON",
+            "PHP",
+            "Python",
+            "Summary",
+            "Chapter 3: Working with Real-time JSON",
+            "Accessing objects in JSON",
+            "Performing complex operations",
+            "Modifying JSON",
+            "Summary",
+            "Chapter 4: AJAX Calls with JSON Data",
+            "Requirements for AJAX",
+            "Hosting JSON",
+            "Making your first AJAX call",
+            "Parsing JSON dataSummary",
+            "Chapter 5: Cross-domain Asynchronous Requests",
+            "Making GET & POST AJAX calls with JSON data",
+            "What is the problem with cross-domain AJAX calls?",
+            "Introduction to JSONP",
+            "Implementation of JSONP",
+            "Summary",
+            "Chapter 6: Building the Carousel Application",
+            "Setting up the application",
+            "Building the JSON file for the Carousel application",
+            "Creating the Carousel application with jQuery Cycle",
+            "Summary",
+            "Chapter 7: Alternate Implementations of JSON",
+            "Dependency management",
+            "JSON for storing metadata",
+            "Comparisons with YAML",
+            "Summary",
+            "Chapter 8: Debugging JSON",
+            "Using the developer tools",
+            "Validating JSONFormatting JSON",
+            "Summary",
+            "Index"
+          ],
+          "title": "JavaScript and JSON essentials"
+        },
+        "updated": "2024-07-05T07:32:44.741395+00:00"
+      },
+      {
+        "created": "2016-07-04T00:00:00+00:00",
+        "id": "w7eby-0dn39",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/w7eby-0dn39"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "_migration": {
+            "conference_title": "",
+            "eitems_ebl": [],
+            "eitems_external": [],
+            "eitems_file_links": [],
+            "eitems_has_ebl": false,
+            "eitems_has_external": false,
+            "eitems_has_files": false,
+            "eitems_has_proxy": false,
+            "eitems_has_safari": false,
+            "eitems_internal_notes": "SAF201711",
+            "eitems_open_access": false,
+            "eitems_proxy": [],
+            "eitems_safari": [
+              {
+                "url": {
+                  "description": "ebook",
+                  "value": "https://learning.oreilly.com/library/view/-/9781484218631/?ar"
+                }
+              }
+            ],
+            "has_journal": false,
+            "has_medium": false,
+            "has_related": false,
+            "has_serial": false,
+            "is_multipart": false,
+            "is_yellow_report": false,
+            "item_medium": [],
+            "items": [],
+            "journal_record_legacy_recids": [],
+            "record_type": "document",
+            "related": [],
+            "serials": [],
+            "tags": [],
+            "volumes": [],
+            "volumes_identifiers": [],
+            "volumes_urls": []
+          },
+          "agency_code": "SzGeCERN",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "9781484218631"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Jackson, Wallace",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "ISBN": "9781484218624",
+            "urls": {
+              "is_placeholder": false,
+              "large": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9781484218624/LC.gif",
+              "medium": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9781484218624/MC.gif",
+              "small": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9781484218624/SC.gif"
+            }
+          },
+          "created_by": {
+            "type": "script",
+            "value": "batchuploader"
+          },
+          "document_type": "BOOK",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": null,
+                "eitem_type": "E-BOOK",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": "SAF201711",
+                "open_access": false,
+                "pid": "prv11-ke723",
+                "urls": [
+                  {
+                    "description": "e-book",
+                    "value": "https://learning.oreilly.com/library/view/-/9781484218631/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "identifiers": [
+            {
+              "scheme": "ISBN",
+              "value": "9781484218624"
+            }
+          ],
+          "imprint": {
+            "date": "2016-01-01",
+            "place": "Berkeley, CA",
+            "publisher": "Apress"
+          },
+          "internal_notes": [
+            {
+              "value": "EBLlink deleted"
+            }
+          ],
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "languages": [
+            "ENG"
+          ],
+          "legacy_recid": 2197329,
+          "number_of_pages": "158",
+          "pid": "w7eby-0dn39",
+          "provider_recid": "2197329",
+          "publication_year": "2016",
+          "relations": {},
+          "source": "SAF",
+          "stock": {
+            "mediums": [
+              "E-BOOK"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "LOC",
+              "value": "QA75.5-76.95"
+            },
+            {
+              "scheme": "DEWEY",
+              "value": "004"
+            }
+          ],
+          "table_of_content": [
+            "Contents at a Glance",
+            "Contents",
+            "About the Author",
+            "About the Technical Reviewer",
+            "Acknowledgments",
+            "Introduction",
+            "Chapter 1: Exploring a JSON Integrated Development Environment",
+            "NetBeans 8.1: The Intelligent JSON IDE",
+            "NetBeans 8.1 Is Smart: Code Editing in Hyper-Drive",
+            "NetBeans 8.1 Is Extensible: Coding in All Languages",
+            "NetBeans 8.1 Is Efficient: Project-Management Tool",
+            "NetBeans 8.1 UI Design: Responsive Web Design",
+            "NetBeans 8.1 Styling: CSS3 Style Editing Support",
+            "NetBeans 8.1 Debugging: Squash Those Bugs!",
+            "NetBeans 8.1 Optimization: Program Code Profiler",
+            "Creating a JSON Project: A Bootstrap Project",
+            "Summary",
+            "Chapter 2: An Introduction to JSON: Concepts and Terminology",
+            "What Is JSON?",
+            "JSON Is Lightweight: Simpler Is Usually Superior",
+            "JSON Is Text-Based: 100% Language Independent",
+            "JSON Structures: Data Objects and Data Arrays",
+            "Data Objects: Collections of Name:Value Pairs for Data Structures",
+            "Data Arrays: An Ordered List Defining Sequential Data Values",
+            "JSON Is JavaScript Compatible: Easy Integration",
+            "Converting a JSON Object Definition to an Object: Using eval()",
+            "Parsing JSON Object Definitions into Objects: Using JSON.parse()",
+            "Stringifying JSON Objects into Definitions: Using JSON.stringify()",
+            "JSON.parse() and JSON.stringify(): Open Source Code Available",
+            "JSON Open Licensing: Free for Commercial Use",
+            "Summary",
+            "Chapter 3: The JSON Schema: JSON Structure Validation",
+            "JSON Schema: Concepts and Definitions",
+            "JSON Schema Advantage: Clear JSON Description",
+            "JSON Hyper-Schema Advantage: Links and Forms",
+            "JSON Schema Core: Language Definition",
+            "Summary",
+            "Chapter 4: Objects and Object-Oriented Programming: OOP Primer",
+            "Object-Oriented Programming: Overview",
+            "Java OOP Concepts: Hard Object Construction",
+            "Java Packages: Organizing a Java API Using Functional Classes",
+            "Java Classes: OOP Modular Structures",
+            "Java Methods: Code Constructs Providing Core Logic Functions",
+            "Declaring a Method: Modifier, Return Type, and Method Name",
+            "Constructor Methods: Turning a Java Class into a Java Object",
+            "Creating a Java Object: Invoking the Class Constructor Method",
+            "Java Objects: Virtual Reality Using OOP with Java",
+            "Designing a Java Object: Constants, Variables, and Methods",
+            "Encoding Objects: Turning an Object Design into Java Code",
+            "Constructing Objects: Coding Your Constructor Method",
+            "Creating Objects: Object Instantiation Using the new Keyword",
+            "Extending an Object Structure: The OOP Concept of Inheritance",
+            "JavaScript OOP Concepts: Hard and Soft Objects",
+            "JavaScript Hard Objects: Using a Constructor Function",
+            "JavaScript Soft Objects: Using Literal Notation to Define a Variable",
+            "Differences Between a Constructor Function and Literal Notation",
+            "Accessing JavaScript Objects: Using Dot Notation",
+            "Defining Soft Objects: Using JavaScript Object Notation (JSON)"
+          ],
+          "title": "JSON quick syntax reference"
+        },
+        "updated": "2024-07-05T12:37:34.498316+00:00"
+      },
+      {
+        "created": "2019-04-08T00:00:00+00:00",
+        "id": "2h3g3-30b85",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/2h3g3-30b85"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "_migration": {
+            "conference_title": "",
+            "eitems_ebl": [],
+            "eitems_external": [],
+            "eitems_file_links": [],
+            "eitems_has_ebl": false,
+            "eitems_has_external": false,
+            "eitems_has_files": false,
+            "eitems_has_proxy": false,
+            "eitems_has_safari": false,
+            "eitems_internal_notes": "SAF201904",
+            "eitems_open_access": false,
+            "eitems_proxy": [],
+            "eitems_safari": [
+              {
+                "url": {
+                  "description": "ebook",
+                  "value": "https://learning.oreilly.com/library/view/-/9781484243305/?ar"
+                }
+              }
+            ],
+            "has_journal": false,
+            "has_medium": false,
+            "has_related": false,
+            "has_serial": false,
+            "is_multipart": false,
+            "is_yellow_report": false,
+            "item_medium": [],
+            "items": [],
+            "journal_record_legacy_recids": [],
+            "record_type": "document",
+            "related": [
+              {
+                "related_recid": "2288452",
+                "relation_description": "1st ed.",
+                "relation_type": "edition"
+              }
+            ],
+            "serials": [],
+            "tags": [],
+            "volumes": [],
+            "volumes_identifiers": [],
+            "volumes_urls": []
+          },
+          "agency_code": "SzGeCERN",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "on1089256286"
+            }
+          ],
+          "alternative_titles": [
+            {
+              "type": "SUBTITLE",
+              "value": "document processing for Java SE"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Friesen, Jeff",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "created_by": {
+            "type": "script",
+            "value": "batchuploader"
+          },
+          "document_type": "BOOK",
+          "edition": "2nd",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": null,
+                "eitem_type": "E-BOOK",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": "SAF201904",
+                "open_access": false,
+                "pid": "7wh24-0x293",
+                "urls": [
+                  {
+                    "description": "e-book",
+                    "value": "https://learning.oreilly.com/library/view/-/9781484243305/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "imprint": {
+            "date": "2019-01-01",
+            "place": "Berkeley, CA",
+            "publisher": "Apress"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "keywords": [
+            {
+              "source": "SAF",
+              "value": "XML (Document markup language)"
+            },
+            {
+              "source": "SAF",
+              "value": "JSON (Document markup language)"
+            },
+            {
+              "source": "SAF",
+              "value": "Java (Computer program language)"
+            },
+            {
+              "source": "SAF",
+              "value": "Application software"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "legacy_recid": 2670774,
+          "pid": "2h3g3-30b85",
+          "provider_recid": "2670774",
+          "publication_year": "2019",
+          "relations": {
+            "edition": [
+              {
+                "pid_type": "docid",
+                "pid_value": "d96dh-whz12",
+                "record_metadata": {
+                  "document_type": "BOOK",
+                  "edition": "1st",
+                  "languages": [
+                    "ENG"
+                  ],
+                  "publication_year": "2016",
+                  "title": "Java XML and JSON"
+                },
+                "relation_type": "edition"
+              }
+            ]
+          },
+          "source": "SAF",
+          "stock": {
+            "mediums": [
+              "E-BOOK"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "LOC",
+              "value": "QA76.76.H94"
+            }
+          ],
+          "title": "Java XML and JSON"
+        },
+        "updated": "2024-07-04T16:35:16.848466+00:00"
+      },
+      {
+        "created": "2017-10-09T00:00:00+00:00",
+        "id": "d96dh-whz12",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/d96dh-whz12"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "_migration": {
+            "conference_title": "",
+            "eitems_ebl": [],
+            "eitems_external": [],
+            "eitems_file_links": [],
+            "eitems_has_ebl": false,
+            "eitems_has_external": false,
+            "eitems_has_files": false,
+            "eitems_has_proxy": false,
+            "eitems_has_safari": false,
+            "eitems_internal_notes": "SAF201710",
+            "eitems_open_access": false,
+            "eitems_proxy": [],
+            "eitems_safari": [
+              {
+                "url": {
+                  "description": "ebook",
+                  "value": "https://learning.oreilly.com/library/view/-/9781484219164/?ar"
+                }
+              }
+            ],
+            "has_journal": false,
+            "has_medium": false,
+            "has_related": false,
+            "has_serial": false,
+            "is_multipart": false,
+            "is_yellow_report": false,
+            "item_medium": [],
+            "items": [],
+            "journal_record_legacy_recids": [],
+            "record_type": "document",
+            "related": [
+              {
+                "related_recid": "2670774",
+                "relation_description": "2nd ed.",
+                "relation_type": "edition"
+              }
+            ],
+            "serials": [
+              {
+                "issn": null,
+                "title": "The expert's voice in Java",
+                "volume": null
+              }
+            ],
+            "tags": [],
+            "volumes": [],
+            "volumes_identifiers": [],
+            "volumes_urls": []
+          },
+          "agency_code": "SzGeCERN",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "ocn956315822"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Friesen, Jeff",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "ISBN": "9781484219157",
+            "urls": {
+              "is_placeholder": false,
+              "large": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9781484219157/LC.gif",
+              "medium": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9781484219157/MC.gif",
+              "small": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9781484219157/SC.gif"
+            }
+          },
+          "created_by": {
+            "type": "script",
+            "value": "batchuploader"
+          },
+          "document_type": "BOOK",
+          "edition": "1st",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": null,
+                "eitem_type": "E-BOOK",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": "SAF201710",
+                "open_access": false,
+                "pid": "46sdb-p3w90",
+                "urls": [
+                  {
+                    "description": "e-book",
+                    "value": "https://learning.oreilly.com/library/view/-/9781484219164/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "identifiers": [
+            {
+              "scheme": "ISBN",
+              "value": "9781484219157"
+            }
+          ],
+          "imprint": {
+            "date": "2016-01-01",
+            "place": "New York, NY",
+            "publisher": "Apress"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "keywords": [
+            {
+              "source": "SAF",
+              "value": "XML (Document markup language)"
+            },
+            {
+              "source": "SAF",
+              "value": "JSON (Document markup language)"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "legacy_recid": 2288452,
+          "pid": "d96dh-whz12",
+          "provider_recid": "2288452",
+          "publication_year": "2016",
+          "relations": {
+            "edition": [
+              {
+                "pid_type": "docid",
+                "pid_value": "2h3g3-30b85",
+                "record_metadata": {
+                  "document_type": "BOOK",
+                  "edition": "2nd",
+                  "languages": [
+                    "ENG"
+                  ],
+                  "publication_year": "2019",
+                  "title": "Java XML and JSON"
+                },
+                "relation_type": "edition"
+              }
+            ],
+            "serial": [
+              {
+                "pid_type": "serid",
+                "pid_value": "xh6ts-ged98",
+                "record_metadata": {
+                  "mode_of_issuance": "SERIAL",
+                  "title": "The expert's voice in Java"
+                },
+                "relation_type": "serial"
+              }
+            ]
+          },
+          "source": "SAF",
+          "stock": {
+            "mediums": [
+              "E-BOOK"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "LOC",
+              "value": "QA76.76.H94"
+            }
+          ],
+          "title": "Java XML and JSON"
+        },
+        "updated": "2024-07-06T18:44:43.175291+00:00"
+      },
+      {
+        "created": "2024-06-29T15:42:55.868100+00:00",
+        "id": "90czv-1zp06",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/90czv-1zp06"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "abstract": "\"Introduced as part of Oracle 12, Oracle JSON SQL makes it possible to convert the JSON data world of keys and values into the relational data world of columns and rows. At its core, this course teaches you how to use Oracle JSON SQL. You'll learn the key JSON SQL functions that tell you: If the JSON data is valid, if a particular element and/or value exists in the JSON data, how to extract a specific scalar value from JSON data, and how to translate JSON keys and values into relational rows and columns. But this is more than a how-to-use JSON SQL course, it's a refresher course for those who need a solid understanding of the distinctions between the relational data world and the JSON data world, and how SQL can act as a bridge between the two.\"--Resource description page.",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "ocn981928173"
+            }
+          ],
+          "alternative_titles": [
+            {
+              "type": "SUBTITLE",
+              "value": "a review of relational concepts, JSON concepts, and how Oracle JSON SQL converts JSON data into relational data"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Hurley, Darryl",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "created_by": {
+            "type": "import",
+            "value": "safari"
+          },
+          "document_type": "MULTIMEDIA",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": "",
+                "eitem_type": "VIDEO",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": null,
+                "open_access": false,
+                "pid": "mpfyb-3ye69",
+                "urls": [
+                  {
+                    "description": "video",
+                    "login_required": false,
+                    "value": "https://learning.oreilly.com/library/view/-/9781491979051/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "imprint": {
+            "place": "Place of publication not identified",
+            "publisher": "O'Reilly"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "keywords": [
+            {
+              "source": "SAFARI",
+              "value": "SQL/ORACLE (Computer program language"
+            },
+            {
+              "source": "SAFARI",
+              "value": "JSON (Document markup language"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Relational databases"
+            },
+            {
+              "source": "SAFARI",
+              "value": "SQL/ORACLE (Langage de programmation"
+            },
+            {
+              "source": "SAFARI",
+              "value": "JSON (Langage de balisage"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Bases de données relationnelles"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "pid": "90czv-1zp06",
+          "publication_year": "2017",
+          "relations": {},
+          "stock": {
+            "mediums": [
+              "VIDEO"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "LOC",
+              "value": "HF5548.5.S65"
+            }
+          ],
+          "title": "Oracle SQL and JSON"
+        },
+        "updated": "2024-07-08T17:14:21.412510+00:00"
+      }
+    ],
+    "total": 348
+  },
+  "links": {
+    "next": "https://catalogue.library.cern/api/literature/?q=(json)+AND+(NOT+document_type%3ASERIAL_ISSUE)&size=5&page=3",
+    "prev": "https://catalogue.library.cern/api/literature/?q=(json)+AND+(NOT+document_type%3ASERIAL_ISSUE)&size=5&page=1",
+    "self": "https://catalogue.library.cern/api/literature/?q=(json)+AND+(NOT+document_type%3ASERIAL_ISSUE)&size=5&page=2"
+  }
+}

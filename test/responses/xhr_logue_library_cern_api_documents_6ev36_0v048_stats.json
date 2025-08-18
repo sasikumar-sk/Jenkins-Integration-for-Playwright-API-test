@@ -1,0 +1,210 @@
+{
+  "created": "2019-02-11T00:00:00+00:00",
+  "id": "6ev36-0v048",
+  "links": {},
+  "metadata": {
+    "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+    "_created": "2019-02-11",
+    "_migration": {
+      "conference_title": "",
+      "eitems_ebl": [],
+      "eitems_external": [],
+      "eitems_file_links": [],
+      "eitems_has_ebl": false,
+      "eitems_has_external": false,
+      "eitems_has_files": false,
+      "eitems_has_proxy": false,
+      "eitems_has_safari": false,
+      "eitems_internal_notes": "SAF201902",
+      "eitems_open_access": false,
+      "eitems_proxy": [],
+      "eitems_safari": [
+        {
+          "url": {
+            "description": "ebook",
+            "value": "https://learning.oreilly.com/library/view/-/9780071809276/?ar"
+          }
+        }
+      ],
+      "has_journal": false,
+      "has_medium": false,
+      "has_related": false,
+      "has_serial": false,
+      "is_multipart": false,
+      "is_yellow_report": false,
+      "item_medium": [],
+      "items": [],
+      "journal_record_legacy_recids": [],
+      "record_type": "document",
+      "related": [],
+      "serials": [
+        {
+          "issn": null,
+          "title": "McGraw-Hill beginner's guide",
+          "volume": null
+        }
+      ],
+      "tags": [],
+      "volumes": [],
+      "volumes_identifiers": [],
+      "volumes_urls": []
+    },
+    "agency_code": "SzGeCERN",
+    "alternative_identifiers": [
+      {
+        "scheme": "SAFARI",
+        "value": "ocn910169001"
+      }
+    ],
+    "alternative_titles": [
+      {
+        "type": "SUBTITLE",
+        "value": "a beginner's guide"
+      },
+      {
+        "type": "ALTERNATIVE_TITLE",
+        "value": "Hypertext mark-up language"
+      }
+    ],
+    "authors": [
+      {
+        "full_name": "Willard, Wendy",
+        "roles": [
+          "AUTHOR"
+        ],
+        "type": "PERSON"
+      }
+    ],
+    "circulation": {
+      "active_loans_count": 0,
+      "available_items_for_loan_count": 0,
+      "can_circulate_items_count": 0,
+      "items_for_reference_count": 0,
+      "overbooked": false,
+      "overdue_loans_count": 0,
+      "past_loans_count": 0,
+      "pending_loans_count": 0
+    },
+    "cover_metadata": {
+      "ISBN": "9780071809276",
+      "urls": {
+        "is_placeholder": false,
+        "large": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9780071809276/LC.gif",
+        "medium": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9780071809276/MC.gif",
+        "small": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9780071809276/SC.gif"
+      }
+    },
+    "created_by": {
+      "type": "script",
+      "value": "batchuploader"
+    },
+    "document_type": "BOOK",
+    "edition": "5th",
+    "eitems": {
+      "hits": [
+        {
+          "bucket_id": null,
+          "description": null,
+          "eitem_type": "E-BOOK",
+          "files": [],
+          "identifiers": [],
+          "internal_notes": "SAF201902",
+          "open_access": false,
+          "pid": "seexw-18457",
+          "urls": [
+            {
+              "description": "e-book",
+              "value": "https://learning.oreilly.com/library/view/-/9780071809276/?ar"
+            }
+          ]
+        }
+      ],
+      "total": 1
+    },
+    "identifiers": [
+      {
+        "scheme": "ISBN",
+        "value": "9780071809276"
+      },
+      {
+        "scheme": "ISBN",
+        "value": "9780071809283"
+      }
+    ],
+    "imprint": {
+      "date": "2013-01-01",
+      "place": "New York, NY",
+      "publisher": "McGraw-Hill Education"
+    },
+    "items": {
+      "hits": [],
+      "on_shelf": {},
+      "total": 0
+    },
+    "keywords": [
+      {
+        "source": "SAF",
+        "value": "HTML (Document markup language)"
+      },
+      {
+        "source": "SAF",
+        "value": "Document markup languages"
+      }
+    ],
+    "languages": [
+      "ENG"
+    ],
+    "legacy_recid": 2658298,
+    "pid": "6ev36-0v048",
+    "provider_recid": "2658298",
+    "publication_year": "2013",
+    "relations": {
+      "serial": [
+        {
+          "pid_type": "serid",
+          "pid_value": "cm2aj-ga713",
+          "record_metadata": {
+            "mode_of_issuance": "SERIAL",
+            "title": "McGraw-Hill beginner's guide"
+          },
+          "relation_type": "serial"
+        }
+      ]
+    },
+    "source": "SAF",
+    "stock": {
+      "mediums": [
+        "E-BOOK"
+      ]
+    },
+    "subjects": [
+      {
+        "scheme": "LOC",
+        "value": "QA76.76.H94"
+      }
+    ],
+    "table_of_content": [
+      "Part I Laying the foundation",
+      "Getting started",
+      "Document setup",
+      "Style sheet setup",
+      "Working with text",
+      "Page structure",
+      "Positioining page elements",
+      "Part II Adding the content",
+      "Working with links",
+      "Working with images",
+      "Working with multimedia",
+      "Creating lists",
+      "Using tables",
+      "Creating forums",
+      "Formatting and styling forms",
+      "Beyond static HTML",
+      "Part III Going live",
+      "Publishing pages",
+      "HTML for email"
+    ],
+    "title": "HTML"
+  },
+  "updated": "2024-07-04T12:13:36.410676+00:00"
+}
