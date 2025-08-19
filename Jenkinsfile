@@ -7,23 +7,36 @@ pipeline {
                 checkout scm
             }
         }
+
         stage('Install Dependencies') {
             steps {
+                // Use npm ci for reproducible builds
                 sh 'npm ci'
-                sh 'npx playwright install'
+                // Install Playwright browsers with dependencies
+                sh 'npx playwright install --with-deps'
             }
         }
+
         stage('Run Playwright Tests') {
             steps {
+                // Generate HTML report
                 sh 'npx playwright test --reporter=html'
             }
         }
-        stage('Archive Artifacts') {
+
+        stage('Archive Reports & API Responses') {
             steps {
+                // Archive Playwright report
                 archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
+                // Archive any stored API responses
                 archiveArtifacts artifacts: 'api_responses/*.json', allowEmptyArchive: true
             }
         }
     }
-}
 
+    post {
+        always {
+            echo "Build finished. Reports are archived in Jenkins."
+        }
+    }
+}

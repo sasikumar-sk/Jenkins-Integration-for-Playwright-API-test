@@ -5,6 +5,382 @@
     "json": {}
   },
   {
+    "url": "https://catalogue.library.cern/api/series/?q=series_type:%22PERIODICAL%22&sort=-created&size=5",
+    "status": 200,
+    "json": {
+      "aggregations": {
+        "language": {
+          "buckets": [
+            {
+              "doc_count": 2108,
+              "key": "ENG"
+            },
+            {
+              "doc_count": 146,
+              "key": "FRA"
+            },
+            {
+              "doc_count": 53,
+              "key": "DEU"
+            },
+            {
+              "doc_count": 18,
+              "key": "MUL"
+            },
+            {
+              "doc_count": 14,
+              "key": "RUS"
+            },
+            {
+              "doc_count": 12,
+              "key": "ITA"
+            },
+            {
+              "doc_count": 4,
+              "key": "SPA"
+            },
+            {
+              "doc_count": 2,
+              "key": "CES"
+            },
+            {
+              "doc_count": 2,
+              "key": "ZHO"
+            },
+            {
+              "doc_count": 1,
+              "key": "DAN"
+            }
+          ],
+          "doc_count_error_upper_bound": 0,
+          "sum_other_doc_count": 6
+        },
+        "moi": {
+          "buckets": [
+            {
+              "doc_count": 2305,
+              "key": "SERIAL"
+            },
+            {
+              "doc_count": 1,
+              "key": "MULTIPART_MONOGRAPH"
+            }
+          ],
+          "doc_count_error_upper_bound": 0,
+          "sum_other_doc_count": 0
+        },
+        "relation": {
+          "buckets": [],
+          "doc_count_error_upper_bound": 0,
+          "sum_other_doc_count": 0
+        },
+        "sertype": {
+          "buckets": [
+            {
+              "doc_count": 2306,
+              "key": "PERIODICAL"
+            }
+          ],
+          "doc_count_error_upper_bound": 0,
+          "sum_other_doc_count": 0
+        }
+      },
+      "hits": {
+        "hits": [
+          {
+            "created": "2025-07-10T08:37:42.809769+00:00",
+            "id": "p0w5y-4r831",
+            "links": {
+              "self": "https://catalogue.library.cern/api/series/p0w5y-4r831"
+            },
+            "metadata": {
+              "$schema": "https://cds-ils.cern.ch/schemas/series/series-v2.0.0.json",
+              "alternative_titles": [
+                {
+                  "language": "FRA",
+                  "type": "ALTERNATIVE_TITLE",
+                  "value": "Mon petit science et vie"
+                }
+              ],
+              "cover_metadata": {
+                "urls": {
+                  "is_placeholder": true,
+                  "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+                  "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+                  "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+                }
+              },
+              "created_by": {
+                "type": "user_id",
+                "value": "67171"
+              },
+              "identifiers": [
+                {
+                  "material": "PAPERBACK",
+                  "scheme": "ISSN",
+                  "value": "2800-9886"
+                }
+              ],
+              "mode_of_issuance": "MULTIPART_MONOGRAPH",
+              "physical_volumes": [
+                {
+                  "description": "No. 45 (2025) - ",
+                  "location": "Central Library"
+                }
+              ],
+              "pid": "p0w5y-4r831",
+              "publication_year": "2025",
+              "publisher": "Reworld Media ",
+              "relations": {},
+              "relations_extra_metadata": {},
+              "series_type": "PERIODICAL",
+              "title": "Mon Petit Science & Vie",
+              "updated_by": {
+                "type": "user_id",
+                "value": "56173"
+              }
+            },
+            "updated": "2025-08-18T06:07:01.592876+00:00"
+          },
+          {
+            "created": "2025-02-25T12:29:30.682120+00:00",
+            "id": "apjcn-bjr59",
+            "links": {
+              "self": "https://catalogue.library.cern/api/series/apjcn-bjr59"
+            },
+            "metadata": {
+              "$schema": "https://cds-ils.cern.ch/schemas/series/series-v2.0.0.json",
+              "alternative_titles": [
+                {
+                  "language": "FRA",
+                  "type": "ABBREVIATION",
+                  "value": "Sci. Vie  Découv."
+                },
+                {
+                  "language": "FRA",
+                  "type": "ALTERNATIVE_TITLE",
+                  "value": "Science et vie. Découvertes"
+                }
+              ],
+              "cover_metadata": {
+                "urls": {
+                  "is_placeholder": true,
+                  "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+                  "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+                  "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+                }
+              },
+              "created_by": {
+                "type": "user_id",
+                "value": "67171"
+              },
+              "identifiers": [
+                {
+                  "scheme": "ISSN",
+                  "value": "1291-1690"
+                }
+              ],
+              "languages": [
+                "FRA"
+              ],
+              "mode_of_issuance": "SERIAL",
+              "physical_volumes": [
+                {
+                  "description": "No. 315 (2025) -",
+                  "location": "Central Library"
+                }
+              ],
+              "pid": "apjcn-bjr59",
+              "publisher": "Reworld Media",
+              "relations": {},
+              "relations_extra_metadata": {},
+              "series_type": "PERIODICAL",
+              "title": "Science & Vie Découvertes",
+              "updated_by": {
+                "type": "user_id",
+                "value": "67171"
+              }
+            },
+            "updated": "2025-02-25T13:31:21.193559+00:00"
+          },
+          {
+            "created": "2025-02-25T12:22:47.014123+00:00",
+            "id": "6526d-86669",
+            "links": {
+              "self": "https://catalogue.library.cern/api/series/6526d-86669"
+            },
+            "metadata": {
+              "$schema": "https://cds-ils.cern.ch/schemas/series/series-v2.0.0.json",
+              "alternative_titles": [
+                {
+                  "language": "FRA",
+                  "type": "ALTERNATIVE_TITLE",
+                  "value": "Zèbres et compagnie"
+                },
+                {
+                  "language": "FRA",
+                  "type": "ALTERNATIVE_TITLE",
+                  "value": "Zèbresetcompagnie"
+                },
+                {
+                  "language": "FRA",
+                  "type": "ALTERNATIVE_TITLE",
+                  "value": "Zèbres & compagnie"
+                },
+                {
+                  "language": "FRA",
+                  "type": "ALTERNATIVE_TITLE",
+                  "value": " Zèbres et cie"
+                },
+                {
+                  "language": "FRA",
+                  "type": "ALTERNATIVE_TITLE",
+                  "value": "Zèbres & cie"
+                }
+              ],
+              "cover_metadata": {
+                "urls": {
+                  "is_placeholder": true,
+                  "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+                  "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+                  "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+                }
+              },
+              "created_by": {
+                "type": "user_id",
+                "value": "67171"
+              },
+              "identifiers": [
+                {
+                  "scheme": "ISSN",
+                  "value": "3073-9470"
+                }
+              ],
+              "languages": [
+                "FRA"
+              ],
+              "mode_of_issuance": "SERIAL",
+              "physical_volumes": [
+                {
+                  "description": "No 2 (2025) -",
+                  "location": "Central Library"
+                }
+              ],
+              "pid": "6526d-86669",
+              "publisher": "YZÉ PRESSE",
+              "relations": {},
+              "relations_extra_metadata": {},
+              "series_type": "PERIODICAL",
+              "title": "Zèbres & cie",
+              "updated_by": {
+                "type": "user_id",
+                "value": "67171"
+              }
+            },
+            "updated": "2025-02-25T13:34:17.347925+00:00"
+          },
+          {
+            "created": "2024-12-20T16:18:57.388958+00:00",
+            "id": "d1rvt-apm26",
+            "links": {
+              "self": "https://catalogue.library.cern/api/series/d1rvt-apm26"
+            },
+            "metadata": {
+              "$schema": "https://cds-ils.cern.ch/schemas/series/series-v2.0.0.json",
+              "access_urls": [
+                {
+                  "description": "2022 - ",
+                  "login_required": false,
+                  "open_access": true,
+                  "value": "https://cds.cern.ch/search?ln=en&cc=Staff+Association+Public+Documents&p=%22Special+Proton%22&action_search=Search&op1=a&m1=a&p1=&f1=&c=Staff+Association+Public+Documents&c=&sf=&so=d&rm=&rg=10&sc=1&of=hb"
+                }
+              ],
+              "alternative_titles": [
+                {
+                  "language": "FRA",
+                  "type": "ALTERNATIVE_TITLE",
+                  "value": "Proton special"
+                }
+              ],
+              "cover_metadata": {
+                "urls": {
+                  "is_placeholder": true,
+                  "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+                  "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+                  "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+                }
+              },
+              "created_by": {
+                "type": "user_id",
+                "value": "132"
+              },
+              "languages": [
+                "ENG",
+                "FRA"
+              ],
+              "mode_of_issuance": "SERIAL",
+              "pid": "d1rvt-apm26",
+              "relations": {
+                "sequence": [
+                  {
+                    "pid_type": "serid",
+                    "pid_value": "y36px-jsp10",
+                    "record_metadata": {
+                      "languages": [
+                        "FRA",
+                        "ENG"
+                      ],
+                      "mode_of_issuance": "SERIAL",
+                      "title": "Proton Newsletter"
+                    },
+                    "relation_order": "continues",
+                    "relation_type": "sequence"
+                  }
+                ]
+              },
+              "series_type": "PERIODICAL",
+              "title": "Special Proton"
+            },
+            "updated": "2024-12-20T16:18:57.388964+00:00"
+          },
+          {
+            "created": "2024-04-15T11:31:00.210802+00:00",
+            "id": "4cz6g-dbh69",
+            "links": {
+              "self": "https://catalogue.library.cern/api/series/4cz6g-dbh69"
+            },
+            "metadata": {
+              "$schema": "https://cds-ils.cern.ch/schemas/series/series-v2.0.0.json",
+              "cover_metadata": {
+                "urls": {
+                  "is_placeholder": true,
+                  "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+                  "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+                  "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+                }
+              },
+              "created_by": {
+                "type": "user_id",
+                "value": "38968"
+              },
+              "mode_of_issuance": "SERIAL",
+              "pid": "4cz6g-dbh69",
+              "relations": {},
+              "series_type": "PERIODICAL",
+              "title": "Nature Reviews Materials"
+            },
+            "updated": "2024-07-04T10:56:12.008171+00:00"
+          }
+        ],
+        "total": 2306
+      },
+      "links": {
+        "next": "https://catalogue.library.cern/api/series/?sort=-created&q=series_type%3A%22PERIODICAL%22&size=5&page=2",
+        "self": "https://catalogue.library.cern/api/series/?sort=-created&q=series_type%3A%22PERIODICAL%22&size=5&page=1"
+      }
+    }
+  },
+  {
     "url": "https://catalogue.library.cern/api/documents/?q=document_type:%22BOOK%22&sort=-created&size=5",
     "status": 200,
     "json": {
@@ -12,7 +388,7 @@
         "access": {
           "buckets": [
             {
-              "doc_count": 9398,
+              "doc_count": 9399,
               "key": 0,
               "key_as_string": "false"
             }
@@ -23,7 +399,7 @@
         "availability": {
           "buckets": [
             {
-              "doc_count": 34304,
+              "doc_count": 34305,
               "from": 1,
               "key": "on shelf"
             }
@@ -42,11 +418,11 @@
         "language": {
           "buckets": [
             {
-              "doc_count": 132819,
+              "doc_count": 132818,
               "key": "ENG"
             },
             {
-              "doc_count": 5598,
+              "doc_count": 5599,
               "key": "FRA"
             },
             {
@@ -88,7 +464,7 @@
         "medium": {
           "buckets": [
             {
-              "doc_count": 108704,
+              "doc_count": 108703,
               "key": "E-BOOK"
             },
             {
@@ -126,7 +502,7 @@
         "relation": {
           "buckets": [
             {
-              "doc_count": 53128,
+              "doc_count": 53127,
               "key": "serial"
             },
             {
@@ -164,7 +540,7 @@
               "key": "LEGAL_SERVICE_LIBRARY"
             },
             {
-              "doc_count": 482,
+              "doc_count": 483,
               "key": "BOOKSHOP"
             },
             {
@@ -190,6 +566,118 @@
       },
       "hits": {
         "hits": [
+          {
+            "created": "2025-08-19T06:43:17.902645+00:00",
+            "id": "fqr42-ga473",
+            "links": {
+              "self": "https://catalogue.library.cern/api/documents/fqr42-ga473"
+            },
+            "metadata": {
+              "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+              "alternative_identifiers": [
+                {
+                  "scheme": "SCEM",
+                  "value": "90.50.03.553.7"
+                }
+              ],
+              "alternative_titles": [
+                {
+                  "language": "FRA",
+                  "type": "SUBTITLE",
+                  "value": "laissez-vous guider dans l’univers du sommeil"
+                }
+              ],
+              "authors": [
+                {
+                  "full_name": "Haba-Rubio, José",
+                  "roles": [
+                    "AUTHOR"
+                  ],
+                  "type": "PERSON"
+                },
+                {
+                  "full_name": "Heinzer, Raphaël",
+                  "roles": [
+                    "AUTHOR"
+                  ],
+                  "type": "PERSON"
+                }
+              ],
+              "circulation": {
+                "active_loans_count": 0,
+                "available_items_for_loan_count": 0,
+                "can_circulate_items_count": 0,
+                "items_for_reference_count": 0,
+                "overbooked": false,
+                "overdue_loans_count": 0,
+                "past_loans_count": 0,
+                "pending_loans_count": 0
+              },
+              "cover_metadata": {
+                "urls": {
+                  "is_placeholder": true,
+                  "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+                  "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+                  "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+                }
+              },
+              "created_by": {
+                "type": "user_id",
+                "value": "11579"
+              },
+              "curated": false,
+              "document_type": "BOOK",
+              "eitems": {
+                "hits": [],
+                "total": 0
+              },
+              "identifiers": [
+                {
+                  "material": "PAPERBACK",
+                  "scheme": "ISBN",
+                  "value": "9782828915544"
+                }
+              ],
+              "imprint": {
+                "date": "2016",
+                "publisher": "Favre"
+              },
+              "items": {
+                "hits": [],
+                "on_shelf": {},
+                "total": 0
+              },
+              "languages": [
+                "FRA"
+              ],
+              "number_of_pages": "272",
+              "other_authors": false,
+              "pid": "fqr42-ga473",
+              "publication_year": "2016",
+              "relations": {},
+              "restricted": false,
+              "stock": {
+                "mediums": []
+              },
+              "subjects": [
+                {
+                  "scheme": "UDC",
+                  "value": "613.79"
+                }
+              ],
+              "tags": [
+                "BOOKSHOP"
+              ],
+              "title": "Je rêve de dormir",
+              "urls": [
+                {
+                  "description": "Bookshop",
+                  "value": "https://edh.cern.ch/edhcat/search?isbn=9782828915544"
+                }
+              ]
+            },
+            "updated": "2025-08-19T06:43:17.902650+00:00"
+          },
           {
             "created": "2025-08-06T12:53:15.305125+00:00",
             "id": "vhp31-5rz14",
@@ -827,155 +1315,6 @@
               "title": "Spectral Characteristics of Solar Radiation"
             },
             "updated": "2025-08-06T12:13:49.793119+00:00"
-          },
-          {
-            "created": "2025-08-06T12:11:30.072081+00:00",
-            "id": "nan1h-wxm43",
-            "links": {
-              "self": "https://catalogue.library.cern/api/documents/nan1h-wxm43"
-            },
-            "metadata": {
-              "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
-              "abstract": "Overviews sustainability and sustainable development. Covers\n                business initiatives that aim toward corporate strategies for social responsibility,\n                use of technology in human resource management toward sustainable efforts, adapting\n                industrial policy to sustainable development goals, developing sustainable green\n                banking initiatives, etc.",
-              "alternative_identifiers": [
-                {
-                  "scheme": "EBL",
-                  "value": "32013556"
-                }
-              ],
-              "alternative_titles": [
-                {
-                  "type": "SUBTITLE",
-                  "value": "From Vision to Reality"
-                }
-              ],
-              "authors": [
-                {
-                  "full_name": "Jeet, Daman",
-                  "roles": [
-                    "AUTHOR"
-                  ],
-                  "type": "PERSON"
-                },
-                {
-                  "full_name": "Mohanty, Sachi Nandan",
-                  "roles": [
-                    "AUTHOR"
-                  ],
-                  "type": "PERSON"
-                },
-                {
-                  "full_name": "Basa, Santi Swarup",
-                  "roles": [
-                    "AUTHOR"
-                  ],
-                  "type": "PERSON"
-                }
-              ],
-              "circulation": {
-                "active_loans_count": 0,
-                "available_items_for_loan_count": 0,
-                "can_circulate_items_count": 0,
-                "items_for_reference_count": 0,
-                "overbooked": false,
-                "overdue_loans_count": 0,
-                "past_loans_count": 0,
-                "pending_loans_count": 0
-              },
-              "cover_metadata": {
-                "ISBN": "9781040381649",
-                "urls": {
-                  "is_placeholder": false,
-                  "large": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9781040381649/LC.gif",
-                  "medium": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9781040381649/MC.gif",
-                  "small": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9781040381649/SC.gif"
-                }
-              },
-              "created_by": {
-                "type": "import",
-                "value": "ebl"
-              },
-              "document_type": "BOOK",
-              "edition": "1st",
-              "eitems": {
-                "hits": [
-                  {
-                    "bucket_id": null,
-                    "description": "",
-                    "eitem_type": "E-BOOK",
-                    "files": [],
-                    "identifiers": [],
-                    "internal_notes": null,
-                    "open_access": false,
-                    "pid": "xs4zw-npv74",
-                    "urls": [
-                      {
-                        "description": "e-book",
-                        "login_required": true,
-                        "login_required_url": "https://ezproxy.cern.ch/login?url=https://ebookcentral.proquest.com/lib/cern/detail.action?docID=32013556",
-                        "value": "https://ebookcentral.proquest.com/lib/cern/detail.action?docID=32013556"
-                      }
-                    ]
-                  }
-                ],
-                "total": 1
-              },
-              "identifiers": [
-                {
-                  "material": "DIGITAL",
-                  "scheme": "ISBN",
-                  "value": "9781040381649"
-                },
-                {
-                  "material": "PRINT_VERSION",
-                  "scheme": "ISBN",
-                  "value": "9781998511525"
-                }
-              ],
-              "imprint": {
-                "place": "Milton ",
-                "publisher": "Apple Academic Press, Incorporated"
-              },
-              "items": {
-                "hits": [],
-                "on_shelf": {},
-                "total": 0
-              },
-              "keywords": [
-                {
-                  "source": "EBL",
-                  "value": "Environmental management-Social aspects."
-                },
-                {
-                  "source": "EBL",
-                  "value": "Sustainable development."
-                }
-              ],
-              "languages": [
-                "ENG"
-              ],
-              "number_of_pages": "427",
-              "pid": "nan1h-wxm43",
-              "publication_year": "2025",
-              "relations": {},
-              "stock": {
-                "mediums": [
-                  "E-BOOK"
-                ]
-              },
-              "subjects": [
-                {
-                  "scheme": "LOC",
-                  "value": "HC79.E5"
-                },
-                {
-                  "scheme": "DEWEY",
-                  "value": "658.408"
-                }
-              ],
-              "title": "Sustainability and Sustainable Development"
-            },
-            "updated": "2025-08-06T12:13:50.254478+00:00"
           }
         ],
         "total": 143483
@@ -983,382 +1322,6 @@
       "links": {
         "next": "https://catalogue.library.cern/api/documents/?sort=-created&q=document_type%3A%22BOOK%22&size=5&page=2",
         "self": "https://catalogue.library.cern/api/documents/?sort=-created&q=document_type%3A%22BOOK%22&size=5&page=1"
-      }
-    }
-  },
-  {
-    "url": "https://catalogue.library.cern/api/series/?q=series_type:%22PERIODICAL%22&sort=-created&size=5",
-    "status": 200,
-    "json": {
-      "aggregations": {
-        "language": {
-          "buckets": [
-            {
-              "doc_count": 2108,
-              "key": "ENG"
-            },
-            {
-              "doc_count": 146,
-              "key": "FRA"
-            },
-            {
-              "doc_count": 53,
-              "key": "DEU"
-            },
-            {
-              "doc_count": 18,
-              "key": "MUL"
-            },
-            {
-              "doc_count": 14,
-              "key": "RUS"
-            },
-            {
-              "doc_count": 12,
-              "key": "ITA"
-            },
-            {
-              "doc_count": 4,
-              "key": "SPA"
-            },
-            {
-              "doc_count": 2,
-              "key": "CES"
-            },
-            {
-              "doc_count": 2,
-              "key": "ZHO"
-            },
-            {
-              "doc_count": 1,
-              "key": "DAN"
-            }
-          ],
-          "doc_count_error_upper_bound": 0,
-          "sum_other_doc_count": 6
-        },
-        "moi": {
-          "buckets": [
-            {
-              "doc_count": 2305,
-              "key": "SERIAL"
-            },
-            {
-              "doc_count": 1,
-              "key": "MULTIPART_MONOGRAPH"
-            }
-          ],
-          "doc_count_error_upper_bound": 0,
-          "sum_other_doc_count": 0
-        },
-        "relation": {
-          "buckets": [],
-          "doc_count_error_upper_bound": 0,
-          "sum_other_doc_count": 0
-        },
-        "sertype": {
-          "buckets": [
-            {
-              "doc_count": 2306,
-              "key": "PERIODICAL"
-            }
-          ],
-          "doc_count_error_upper_bound": 0,
-          "sum_other_doc_count": 0
-        }
-      },
-      "hits": {
-        "hits": [
-          {
-            "created": "2025-07-10T08:37:42.809769+00:00",
-            "id": "p0w5y-4r831",
-            "links": {
-              "self": "https://catalogue.library.cern/api/series/p0w5y-4r831"
-            },
-            "metadata": {
-              "$schema": "https://cds-ils.cern.ch/schemas/series/series-v2.0.0.json",
-              "alternative_titles": [
-                {
-                  "language": "FRA",
-                  "type": "ALTERNATIVE_TITLE",
-                  "value": "Mon petit science et vie"
-                }
-              ],
-              "cover_metadata": {
-                "urls": {
-                  "is_placeholder": true,
-                  "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
-                  "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
-                  "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
-                }
-              },
-              "created_by": {
-                "type": "user_id",
-                "value": "67171"
-              },
-              "identifiers": [
-                {
-                  "material": "PAPERBACK",
-                  "scheme": "ISSN",
-                  "value": "2800-9886"
-                }
-              ],
-              "mode_of_issuance": "MULTIPART_MONOGRAPH",
-              "physical_volumes": [
-                {
-                  "description": "No. 45 (2025) - ",
-                  "location": "Central Library"
-                }
-              ],
-              "pid": "p0w5y-4r831",
-              "publication_year": "2025",
-              "publisher": "Reworld Media ",
-              "relations": {},
-              "relations_extra_metadata": {},
-              "series_type": "PERIODICAL",
-              "title": "Mon Petit Science & Vie",
-              "updated_by": {
-                "type": "user_id",
-                "value": "56173"
-              }
-            },
-            "updated": "2025-08-18T06:07:01.592876+00:00"
-          },
-          {
-            "created": "2025-02-25T12:29:30.682120+00:00",
-            "id": "apjcn-bjr59",
-            "links": {
-              "self": "https://catalogue.library.cern/api/series/apjcn-bjr59"
-            },
-            "metadata": {
-              "$schema": "https://cds-ils.cern.ch/schemas/series/series-v2.0.0.json",
-              "alternative_titles": [
-                {
-                  "language": "FRA",
-                  "type": "ABBREVIATION",
-                  "value": "Sci. Vie  Découv."
-                },
-                {
-                  "language": "FRA",
-                  "type": "ALTERNATIVE_TITLE",
-                  "value": "Science et vie. Découvertes"
-                }
-              ],
-              "cover_metadata": {
-                "urls": {
-                  "is_placeholder": true,
-                  "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
-                  "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
-                  "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
-                }
-              },
-              "created_by": {
-                "type": "user_id",
-                "value": "67171"
-              },
-              "identifiers": [
-                {
-                  "scheme": "ISSN",
-                  "value": "1291-1690"
-                }
-              ],
-              "languages": [
-                "FRA"
-              ],
-              "mode_of_issuance": "SERIAL",
-              "physical_volumes": [
-                {
-                  "description": "No. 315 (2025) -",
-                  "location": "Central Library"
-                }
-              ],
-              "pid": "apjcn-bjr59",
-              "publisher": "Reworld Media",
-              "relations": {},
-              "relations_extra_metadata": {},
-              "series_type": "PERIODICAL",
-              "title": "Science & Vie Découvertes",
-              "updated_by": {
-                "type": "user_id",
-                "value": "67171"
-              }
-            },
-            "updated": "2025-02-25T13:31:21.193559+00:00"
-          },
-          {
-            "created": "2025-02-25T12:22:47.014123+00:00",
-            "id": "6526d-86669",
-            "links": {
-              "self": "https://catalogue.library.cern/api/series/6526d-86669"
-            },
-            "metadata": {
-              "$schema": "https://cds-ils.cern.ch/schemas/series/series-v2.0.0.json",
-              "alternative_titles": [
-                {
-                  "language": "FRA",
-                  "type": "ALTERNATIVE_TITLE",
-                  "value": "Zèbres et compagnie"
-                },
-                {
-                  "language": "FRA",
-                  "type": "ALTERNATIVE_TITLE",
-                  "value": "Zèbresetcompagnie"
-                },
-                {
-                  "language": "FRA",
-                  "type": "ALTERNATIVE_TITLE",
-                  "value": "Zèbres & compagnie"
-                },
-                {
-                  "language": "FRA",
-                  "type": "ALTERNATIVE_TITLE",
-                  "value": " Zèbres et cie"
-                },
-                {
-                  "language": "FRA",
-                  "type": "ALTERNATIVE_TITLE",
-                  "value": "Zèbres & cie"
-                }
-              ],
-              "cover_metadata": {
-                "urls": {
-                  "is_placeholder": true,
-                  "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
-                  "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
-                  "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
-                }
-              },
-              "created_by": {
-                "type": "user_id",
-                "value": "67171"
-              },
-              "identifiers": [
-                {
-                  "scheme": "ISSN",
-                  "value": "3073-9470"
-                }
-              ],
-              "languages": [
-                "FRA"
-              ],
-              "mode_of_issuance": "SERIAL",
-              "physical_volumes": [
-                {
-                  "description": "No 2 (2025) -",
-                  "location": "Central Library"
-                }
-              ],
-              "pid": "6526d-86669",
-              "publisher": "YZÉ PRESSE",
-              "relations": {},
-              "relations_extra_metadata": {},
-              "series_type": "PERIODICAL",
-              "title": "Zèbres & cie",
-              "updated_by": {
-                "type": "user_id",
-                "value": "67171"
-              }
-            },
-            "updated": "2025-02-25T13:34:17.347925+00:00"
-          },
-          {
-            "created": "2024-12-20T16:18:57.388958+00:00",
-            "id": "d1rvt-apm26",
-            "links": {
-              "self": "https://catalogue.library.cern/api/series/d1rvt-apm26"
-            },
-            "metadata": {
-              "$schema": "https://cds-ils.cern.ch/schemas/series/series-v2.0.0.json",
-              "access_urls": [
-                {
-                  "description": "2022 - ",
-                  "login_required": false,
-                  "open_access": true,
-                  "value": "https://cds.cern.ch/search?ln=en&cc=Staff+Association+Public+Documents&p=%22Special+Proton%22&action_search=Search&op1=a&m1=a&p1=&f1=&c=Staff+Association+Public+Documents&c=&sf=&so=d&rm=&rg=10&sc=1&of=hb"
-                }
-              ],
-              "alternative_titles": [
-                {
-                  "language": "FRA",
-                  "type": "ALTERNATIVE_TITLE",
-                  "value": "Proton special"
-                }
-              ],
-              "cover_metadata": {
-                "urls": {
-                  "is_placeholder": true,
-                  "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
-                  "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
-                  "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
-                }
-              },
-              "created_by": {
-                "type": "user_id",
-                "value": "132"
-              },
-              "languages": [
-                "ENG",
-                "FRA"
-              ],
-              "mode_of_issuance": "SERIAL",
-              "pid": "d1rvt-apm26",
-              "relations": {
-                "sequence": [
-                  {
-                    "pid_type": "serid",
-                    "pid_value": "y36px-jsp10",
-                    "record_metadata": {
-                      "languages": [
-                        "FRA",
-                        "ENG"
-                      ],
-                      "mode_of_issuance": "SERIAL",
-                      "title": "Proton Newsletter"
-                    },
-                    "relation_order": "continues",
-                    "relation_type": "sequence"
-                  }
-                ]
-              },
-              "series_type": "PERIODICAL",
-              "title": "Special Proton"
-            },
-            "updated": "2024-12-20T16:18:57.388964+00:00"
-          },
-          {
-            "created": "2024-04-15T11:31:00.210802+00:00",
-            "id": "4cz6g-dbh69",
-            "links": {
-              "self": "https://catalogue.library.cern/api/series/4cz6g-dbh69"
-            },
-            "metadata": {
-              "$schema": "https://cds-ils.cern.ch/schemas/series/series-v2.0.0.json",
-              "cover_metadata": {
-                "urls": {
-                  "is_placeholder": true,
-                  "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
-                  "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
-                  "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
-                }
-              },
-              "created_by": {
-                "type": "user_id",
-                "value": "38968"
-              },
-              "mode_of_issuance": "SERIAL",
-              "pid": "4cz6g-dbh69",
-              "relations": {},
-              "series_type": "PERIODICAL",
-              "title": "Nature Reviews Materials"
-            },
-            "updated": "2024-07-04T10:56:12.008171+00:00"
-          }
-        ],
-        "total": 2306
-      },
-      "links": {
-        "next": "https://catalogue.library.cern/api/series/?sort=-created&q=series_type%3A%22PERIODICAL%22&size=5&page=2",
-        "self": "https://catalogue.library.cern/api/series/?sort=-created&q=series_type%3A%22PERIODICAL%22&size=5&page=1"
       }
     }
   },
@@ -1378,7 +1341,7 @@
         "access": {
           "buckets": [
             {
-              "doc_count": 9398,
+              "doc_count": 9399,
               "key": 0,
               "key_as_string": "false"
             }
@@ -1389,7 +1352,7 @@
         "availability": {
           "buckets": [
             {
-              "doc_count": 34304,
+              "doc_count": 34305,
               "from": 1,
               "key": "on shelf"
             }
@@ -1408,11 +1371,11 @@
         "language": {
           "buckets": [
             {
-              "doc_count": 132819,
+              "doc_count": 132818,
               "key": "ENG"
             },
             {
-              "doc_count": 5598,
+              "doc_count": 5599,
               "key": "FRA"
             },
             {
@@ -1454,7 +1417,7 @@
         "medium": {
           "buckets": [
             {
-              "doc_count": 108704,
+              "doc_count": 108703,
               "key": "E-BOOK"
             },
             {
@@ -1492,7 +1455,7 @@
         "relation": {
           "buckets": [
             {
-              "doc_count": 53128,
+              "doc_count": 53127,
               "key": "serial"
             },
             {
@@ -1530,7 +1493,7 @@
               "key": "LEGAL_SERVICE_LIBRARY"
             },
             {
-              "doc_count": 482,
+              "doc_count": 483,
               "key": "BOOKSHOP"
             },
             {
@@ -5099,31 +5062,6 @@
                     "status": "CAN_CIRCULATE"
                   },
                   {
-                    "barcode": "CM-B00040437",
-                    "circulation": {
-                      "state": "ITEM_ON_LOAN"
-                    },
-                    "circulation_restriction": "NO_RESTRICTION",
-                    "identifiers": [
-                      {
-                        "scheme": "CALL_NUMBER",
-                        "value": "519.23 COW"
-                      }
-                    ],
-                    "internal_location": {
-                      "location": {
-                        "name": "CERN Library"
-                      },
-                      "name": "Central Library"
-                    },
-                    "internal_location_pid": "a09gn-8wg12",
-                    "isbn": null,
-                    "medium": "PAPER",
-                    "pid": "atf48-23505",
-                    "shelf": "37",
-                    "status": "CAN_CIRCULATE"
-                  },
-                  {
                     "barcode": "CM-B00047915",
                     "circulation": {
                       "state": "ITEM_ON_LOAN"
@@ -5149,31 +5087,6 @@
                     "status": "CAN_CIRCULATE"
                   },
                   {
-                    "barcode": "CM-B00057734",
-                    "circulation": {
-                      "state": "ITEM_ON_LOAN"
-                    },
-                    "circulation_restriction": "NO_RESTRICTION",
-                    "identifiers": [
-                      {
-                        "scheme": "CALL_NUMBER",
-                        "value": "519.23 COW"
-                      }
-                    ],
-                    "internal_location": {
-                      "location": {
-                        "name": "CERN Library"
-                      },
-                      "name": "Central Library"
-                    },
-                    "internal_location_pid": "a09gn-8wg12",
-                    "isbn": null,
-                    "medium": "PAPER",
-                    "pid": "jsbqt-vc634",
-                    "shelf": "37",
-                    "status": "CAN_CIRCULATE"
-                  },
-                  {
                     "barcode": "CM-B00041416",
                     "circulation": {
                       "state": "ITEM_ON_LOAN"
@@ -5195,6 +5108,31 @@
                     "isbn": null,
                     "medium": "PAPER",
                     "pid": "85rhw-ebc88",
+                    "shelf": "37",
+                    "status": "CAN_CIRCULATE"
+                  },
+                  {
+                    "barcode": "CM-B00057734",
+                    "circulation": {
+                      "state": "ITEM_ON_LOAN"
+                    },
+                    "circulation_restriction": "NO_RESTRICTION",
+                    "identifiers": [
+                      {
+                        "scheme": "CALL_NUMBER",
+                        "value": "519.23 COW"
+                      }
+                    ],
+                    "internal_location": {
+                      "location": {
+                        "name": "CERN Library"
+                      },
+                      "name": "Central Library"
+                    },
+                    "internal_location_pid": "a09gn-8wg12",
+                    "isbn": null,
+                    "medium": "PAPER",
+                    "pid": "jsbqt-vc634",
                     "shelf": "37",
                     "status": "CAN_CIRCULATE"
                   },
@@ -5389,6 +5327,31 @@
                     "isbn": null,
                     "medium": "PAPER",
                     "pid": "8h6z0-6tv40",
+                    "shelf": "37",
+                    "status": "CAN_CIRCULATE"
+                  },
+                  {
+                    "barcode": "CM-B00040437",
+                    "circulation": {
+                      "state": "ITEM_ON_LOAN"
+                    },
+                    "circulation_restriction": "NO_RESTRICTION",
+                    "identifiers": [
+                      {
+                        "scheme": "CALL_NUMBER",
+                        "value": "519.23 COW"
+                      }
+                    ],
+                    "internal_location": {
+                      "location": {
+                        "name": "CERN Library"
+                      },
+                      "name": "Central Library"
+                    },
+                    "internal_location_pid": "a09gn-8wg12",
+                    "isbn": null,
+                    "medium": "PAPER",
+                    "pid": "atf48-23505",
                     "shelf": "37",
                     "status": "CAN_CIRCULATE"
                   }
@@ -5695,31 +5658,6 @@
                         "status": "CAN_CIRCULATE"
                       },
                       {
-                        "barcode": "CM-B00040437",
-                        "circulation": {
-                          "state": "ITEM_ON_LOAN"
-                        },
-                        "circulation_restriction": "NO_RESTRICTION",
-                        "identifiers": [
-                          {
-                            "scheme": "CALL_NUMBER",
-                            "value": "519.23 COW"
-                          }
-                        ],
-                        "internal_location": {
-                          "location": {
-                            "name": "CERN Library"
-                          },
-                          "name": "Central Library"
-                        },
-                        "internal_location_pid": "a09gn-8wg12",
-                        "isbn": null,
-                        "medium": "PAPER",
-                        "pid": "atf48-23505",
-                        "shelf": "37",
-                        "status": "CAN_CIRCULATE"
-                      },
-                      {
                         "barcode": "CM-B00047915",
                         "circulation": {
                           "state": "ITEM_ON_LOAN"
@@ -5745,31 +5683,6 @@
                         "status": "CAN_CIRCULATE"
                       },
                       {
-                        "barcode": "CM-B00057734",
-                        "circulation": {
-                          "state": "ITEM_ON_LOAN"
-                        },
-                        "circulation_restriction": "NO_RESTRICTION",
-                        "identifiers": [
-                          {
-                            "scheme": "CALL_NUMBER",
-                            "value": "519.23 COW"
-                          }
-                        ],
-                        "internal_location": {
-                          "location": {
-                            "name": "CERN Library"
-                          },
-                          "name": "Central Library"
-                        },
-                        "internal_location_pid": "a09gn-8wg12",
-                        "isbn": null,
-                        "medium": "PAPER",
-                        "pid": "jsbqt-vc634",
-                        "shelf": "37",
-                        "status": "CAN_CIRCULATE"
-                      },
-                      {
                         "barcode": "CM-B00041416",
                         "circulation": {
                           "state": "ITEM_ON_LOAN"
@@ -5791,6 +5704,31 @@
                         "isbn": null,
                         "medium": "PAPER",
                         "pid": "85rhw-ebc88",
+                        "shelf": "37",
+                        "status": "CAN_CIRCULATE"
+                      },
+                      {
+                        "barcode": "CM-B00057734",
+                        "circulation": {
+                          "state": "ITEM_ON_LOAN"
+                        },
+                        "circulation_restriction": "NO_RESTRICTION",
+                        "identifiers": [
+                          {
+                            "scheme": "CALL_NUMBER",
+                            "value": "519.23 COW"
+                          }
+                        ],
+                        "internal_location": {
+                          "location": {
+                            "name": "CERN Library"
+                          },
+                          "name": "Central Library"
+                        },
+                        "internal_location_pid": "a09gn-8wg12",
+                        "isbn": null,
+                        "medium": "PAPER",
+                        "pid": "jsbqt-vc634",
                         "shelf": "37",
                         "status": "CAN_CIRCULATE"
                       },
@@ -5985,6 +5923,31 @@
                         "isbn": null,
                         "medium": "PAPER",
                         "pid": "8h6z0-6tv40",
+                        "shelf": "37",
+                        "status": "CAN_CIRCULATE"
+                      },
+                      {
+                        "barcode": "CM-B00040437",
+                        "circulation": {
+                          "state": "ITEM_ON_LOAN"
+                        },
+                        "circulation_restriction": "NO_RESTRICTION",
+                        "identifiers": [
+                          {
+                            "scheme": "CALL_NUMBER",
+                            "value": "519.23 COW"
+                          }
+                        ],
+                        "internal_location": {
+                          "location": {
+                            "name": "CERN Library"
+                          },
+                          "name": "Central Library"
+                        },
+                        "internal_location_pid": "a09gn-8wg12",
+                        "isbn": null,
+                        "medium": "PAPER",
+                        "pid": "atf48-23505",
                         "shelf": "37",
                         "status": "CAN_CIRCULATE"
                       }

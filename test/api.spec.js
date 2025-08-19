@@ -29,24 +29,20 @@ const ajv = new Ajv();
         try {
           const json = await response.json(); // safe parse
           capturedResponses.push({ url, status: response.status(), json });
-          console.log(`Captured XHR/fetch: ${url}`);
+          //console.log(`Captured XHR/fetch: ${url}`);
         } catch (e) {
-          console.log(`Non-JSON or failed parse from: ${url}`);
+          //console.log(`Non-JSON or failed parse from: ${url}`);
         }
       }
     });
 
-    await page.goto('https://catalogue.library.cern/');  
-
-    // Wait a bit for any requests to finish
+    await page.goto('https://catalogue.library.cern/');   
     await page.waitForTimeout(3000);
-
     // Save captured responses to file
     const filePath = path.join(outputDir, 'network_spy_responses.json');
     await fs.writeFile(filePath, JSON.stringify(capturedResponses, null, 2));
 
-    console.log(`Captured responses saved to ${filePath}`);
-
+    //console.log(`Captured responses saved to ${filePath}`);
     expect(capturedResponses.length).toBeGreaterThan(0);
   });
 
@@ -65,10 +61,8 @@ const ajv = new Ajv();
 
     const response = await page.goto(apiUrl);
     expect(response.status()).toBe(200);
-
     const jsonResponse = await response.json();
-    console.log('Mocked JSON Response:', JSON.stringify(jsonResponse, null, 2));
-
+    //console.log('Mocked JSON Response:', JSON.stringify(jsonResponse, null, 2));
     expect(jsonResponse.total).toBe(1);
 
     // Save mocked response to file
@@ -81,7 +75,7 @@ const ajv = new Ajv();
     expect(apiResponse.ok()).toBeTruthy();
 
     const json = await apiResponse.json();
-    console.log('Direct API Response:', JSON.stringify(json, null, 2));
+    //console.log('Direct API Response:', JSON.stringify(json, null, 2));
     expect(json).toHaveProperty('hits');
 
     // Save direct API response to file
@@ -90,23 +84,17 @@ const ajv = new Ajv();
   });
   test('4. Validate response headers', async ({ request }) => {
     const response = await request.get(apiUrl);
-    expect(response.ok()).toBeTruthy();
-
+    expect(response.ok()).toBeTruthy(); 
     // Check Content-Type
     const contentType = response.headers()['content-type'];
     expect(contentType).toContain('application/json');
-
-    // Save headers
-    const filePath = path.join(outputDir, 'headers.json');
-    await fs.writeFile(filePath, JSON.stringify(response.headers(), null, 2));
+ 
   });
 
   test('5. Intercept and modify API response', async ({ page }) => {
     await page.route('https://catalogue.library.cern/api/literature/**', async (route) => {
       const original = await route.fetch();
-      const json = await original.json();
-
-      // Inject extra mock data into response
+      const json = await original.json(); 
       json.hits.hits.unshift({ id: 'injected', title: 'Injected Paper' });
 
       await route.fulfill({
@@ -117,10 +105,8 @@ const ajv = new Ajv();
 
     const response = await page.goto(apiUrl);
     expect(response.status()).toBe(200);
-
     const jsonResponse = await response.json();
     expect(jsonResponse.hits.hits.some(item => item.id === 'injected')).toBeTruthy();
-
     const filePath = path.join(outputDir, 'intercept_modified.json');
     await fs.writeFile(filePath, JSON.stringify(jsonResponse, null, 2));
   });
@@ -136,12 +122,8 @@ const ajv = new Ajv();
 
     const response = await page.goto(apiUrl);
     expect(response.status()).toBe(500);
-
     const jsonResponse = await response.json();
-    expect(jsonResponse.error).toBe('Internal Server Error');
-
-    const filePath = path.join(outputDir, 'error_500.json');
-    await fs.writeFile(filePath, JSON.stringify(jsonResponse, null, 2));
+    expect(jsonResponse.error).toBe('Internal Server Error'); 
   });
 
   test('7. Query parameter variations', async ({ request }) => {
@@ -154,12 +136,8 @@ const ajv = new Ajv();
       const url = `https://catalogue.library.cern/api/literature/?q=${params.q}&sort=${params.sort}&page=${params.page}&size=${params.size}`;
       const response = await request.get(url);
       expect(response.ok()).toBeTruthy();
-
       const json = await response.json(); 
-
-      // Check size (if results available)
       expect(json.hits.hits.length).toBeLessThanOrEqual(params.size);
-
       const filePath = path.join(outputDir, `response_${params.q}_${params.size}.json`);
       await fs.writeFile(filePath, JSON.stringify(json, null, 2));
     }
@@ -169,16 +147,12 @@ const ajv = new Ajv();
     const start = Date.now();
     const response = await request.get(apiUrl);
     const end = Date.now();
-
     const duration = end - start;
-    console.log(`Response time: ${duration} ms`);
-
-    // Assert API is fast enough (<2s for example)
+    //console.log(`Response time: ${duration} ms`);
     expect(duration).toBeLessThan(2000);
-
     const json = await response.json();
-    const filePath = path.join(outputDir, 'latency_test.json');
-    await fs.writeFile(filePath, JSON.stringify({ duration, json }, null, 2));
+    //const filePath = path.join(outputDir, 'latency_test.json');
+    //await fs.writeFile(filePath, JSON.stringify({ duration, json }, null, 2));
   });
 
 });
