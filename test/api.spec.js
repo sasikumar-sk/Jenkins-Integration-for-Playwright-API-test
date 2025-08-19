@@ -1,9 +1,14 @@
 const { test, expect } = require('@playwright/test');
 const fs = require('fs').promises;
 const path = require('path');
+const Ajv = require('ajv');
+
 
 test.describe('CERN Catalogue API - Advanced Tests', () => {
 
+  test.describe.configure({ mode: 'parallel' });
+
+const ajv = new Ajv();
   const apiUrl = 'https://catalogue.library.cern/api/literature/?q=html&sort=bestmatch&page=1&size=15';
   const outputDir = './api_responses';
 
@@ -12,7 +17,7 @@ test.describe('CERN Catalogue API - Advanced Tests', () => {
     await fs.mkdir(outputDir, { recursive: true });
   });
 
-  test('Network spy: capture all XHR/fetch and parse JSON safely', async ({ page }) => {
+  test('1. Network spy: capture all XHR/fetch and parse JSON safely', async ({ page }) => {
     const capturedResponses = [];
 
     // Listen for all network responses
@@ -45,7 +50,7 @@ test.describe('CERN Catalogue API - Advanced Tests', () => {
     expect(capturedResponses.length).toBeGreaterThan(0);
   });
 
-  test('Mocking API response with custom payload', async ({ page }) => {
+  test('2. Mocking API response with custom payload', async ({ page }) => {
     await page.route('https://catalogue.library.cern/api/literature/**', route => {
       route.fulfill({
         status: 200,
@@ -71,7 +76,7 @@ test.describe('CERN Catalogue API - Advanced Tests', () => {
     await fs.writeFile(filePath, JSON.stringify(jsonResponse, null, 2));
   });
 
-  test('Direct API test using Playwright request fixture', async ({ request }) => {
+  test('3.Direct API test using Playwright request fixture', async ({ request }) => {
     const apiResponse = await request.get(apiUrl);
     expect(apiResponse.ok()).toBeTruthy();
 
@@ -82,6 +87,98 @@ test.describe('CERN Catalogue API - Advanced Tests', () => {
     // Save direct API response to file
     const filePath = path.join(outputDir, 'direct_api_response.json');
     await fs.writeFile(filePath, JSON.stringify(json, null, 2));
+  });
+  test('4. Validate response headers', async ({ request }) => {
+    const response = await request.get(apiUrl);
+    expect(response.ok()).toBeTruthy();
+
+    // Check Content-Type
+    const contentType = response.headers()['content-type'];
+    expect(contentType).toContain('application/json');
+
+    // Save headers
+    const filePath = path.join(outputDir, 'headers.json');
+    await fs.writeFile(filePath, JSON.stringify(response.headers(), null, 2));
+  });
+
+  test('5. Intercept and modify API response', async ({ page }) => {
+    await page.route('https://catalogue.library.cern/api/literature/**', async (route) => {
+      const original = await route.fetch();
+      const json = await original.json();
+
+      // Inject extra mock data into response
+      json.hits.hits.unshift({ id: 'injected', title: 'Injected Paper' });
+
+      await route.fulfill({
+        response: original,
+        body: JSON.stringify(json),
+      });
+    });
+
+    const response = await page.goto(apiUrl);
+    expect(response.status()).toBe(200);
+
+    const jsonResponse = await response.json();
+    expect(jsonResponse.hits.hits.some(item => item.id === 'injected')).toBeTruthy();
+
+    const filePath = path.join(outputDir, 'intercept_modified.json');
+    await fs.writeFile(filePath, JSON.stringify(jsonResponse, null, 2));
+  });
+
+  test('6. Simulate API failure (500)', async ({ page }) => {
+    await page.route('https://catalogue.library.cern/api/literature/**', route => {
+      route.fulfill({
+        status: 500,
+        contentType: 'application/json',
+        body: JSON.stringify({ error: 'Internal Server Error' }),
+      });
+    });
+
+    const response = await page.goto(apiUrl);
+    expect(response.status()).toBe(500);
+
+    const jsonResponse = await response.json();
+    expect(jsonResponse.error).toBe('Internal Server Error');
+
+    const filePath = path.join(outputDir, 'error_500.json');
+    await fs.writeFile(filePath, JSON.stringify(jsonResponse, null, 2));
+  });
+
+  test('7. Query parameter variations', async ({ request }) => {
+    const queries = [
+      { q: 'python', sort: 'bestmatch', page: 1, size: 5 },
+      { q: 'json', sort: 'date', page: 2, size: 10 },
+    ];
+
+    for (const params of queries) {
+      const url = `https://catalogue.library.cern/api/literature/?q=${params.q}&sort=${params.sort}&page=${params.page}&size=${params.size}`;
+      const response = await request.get(url);
+      expect(response.ok()).toBeTruthy();
+
+      const json = await response.json(); 
+
+      // Check size (if results available)
+      expect(json.hits.hits.length).toBeLessThanOrEqual(params.size);
+
+      const filePath = path.join(outputDir, `response_${params.q}_${params.size}.json`);
+      await fs.writeFile(filePath, JSON.stringify(json, null, 2));
+    }
+  });
+
+  test('8. Response time validation (latency)', async ({ request }) => {
+    const start = Date.now();
+    const response = await request.get(apiUrl);
+    const end = Date.now();
+
+    const duration = end - start;
+    console.log(`Response time: ${duration} ms`);
+
+    // Assert API is fast enough (<2s for example)
+    expect(duration).toBeLessThan(2000);
+
+    const json = await response.json();
+    const filePath = path.join(outputDir, 'latency_test.json');
+    await fs.writeFile(filePath, JSON.stringify({ duration, json }, null, 2));
   });
 
 });

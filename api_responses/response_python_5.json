@@ -1,0 +1,958 @@
+{
+  "aggregations": {
+    "access": {
+      "buckets": [
+        {
+          "doc_count": 165,
+          "key": 0,
+          "key_as_string": "false"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "availability": {
+      "buckets": [
+        {
+          "doc_count": 103,
+          "from": 1,
+          "key": "on shelf"
+        }
+      ]
+    },
+    "doctype": {
+      "buckets": [
+        {
+          "doc_count": 2262,
+          "key": "BOOK"
+        },
+        {
+          "doc_count": 887,
+          "key": "MULTIMEDIA"
+        },
+        {
+          "doc_count": 10,
+          "key": "PROCEEDINGS"
+        },
+        {
+          "doc_count": 4,
+          "key": "SERIAL"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "language": {
+      "buckets": [
+        {
+          "doc_count": 3043,
+          "key": "ENG"
+        },
+        {
+          "doc_count": 50,
+          "key": "ZHO"
+        },
+        {
+          "doc_count": 31,
+          "key": "JPN"
+        },
+        {
+          "doc_count": 16,
+          "key": "POL"
+        },
+        {
+          "doc_count": 11,
+          "key": "DEU"
+        },
+        {
+          "doc_count": 7,
+          "key": "FRA"
+        },
+        {
+          "doc_count": 1,
+          "key": "RUS"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "medium": {
+      "buckets": [
+        {
+          "doc_count": 2225,
+          "key": "E-BOOK"
+        },
+        {
+          "doc_count": 894,
+          "key": "VIDEO"
+        },
+        {
+          "doc_count": 136,
+          "key": "PAPER"
+        },
+        {
+          "doc_count": 57,
+          "key": "AUDIOBOOK"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "relation": {
+      "buckets": [
+        {
+          "doc_count": 515,
+          "key": "serial"
+        },
+        {
+          "doc_count": 196,
+          "key": "edition"
+        },
+        {
+          "doc_count": 19,
+          "key": "language"
+        },
+        {
+          "doc_count": 3,
+          "key": "multipart_monograph"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "tag": {
+      "buckets": [],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    }
+  },
+  "hits": {
+    "hits": [
+      {
+        "created": "2010-01-01T00:00:00+00:00",
+        "id": "2jy5n-gsa16",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/2jy5n-gsa16"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/series/series-v2.0.0.json",
+          "_migration": {
+            "children": [
+              2729415
+            ],
+            "record_type": "serial"
+          },
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "mode_of_issuance": "SERIAL",
+          "pid": "2jy5n-gsa16",
+          "relations": {},
+          "series_type": "SERIAL",
+          "title": "Chapman & Hall/CRC the Python"
+        },
+        "updated": "2024-07-04T10:51:46.467866+00:00"
+      },
+      {
+        "created": "2010-01-01T00:00:00+00:00",
+        "id": "ww5af-70r32",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/ww5af-70r32"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/series/series-v2.0.0.json",
+          "_migration": {
+            "children": [
+              1989003,
+              1989043,
+              1970119,
+              2042034,
+              2060268,
+              2113789
+            ],
+            "record_type": "serial"
+          },
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "mode_of_issuance": "SERIAL",
+          "pid": "ww5af-70r32",
+          "relations": {},
+          "series_type": "SERIAL",
+          "title": "The expert's voice in Python"
+        },
+        "updated": "2024-07-04T10:36:40.796886+00:00"
+      },
+      {
+        "created": "2025-05-02T11:59:07.776654+00:00",
+        "id": "tkf1b-g6065",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/tkf1b-g6065"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/series/series-v2.0.0.json",
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "created_by": {
+            "type": "import",
+            "value": "ebl"
+          },
+          "mode_of_issuance": "SERIAL",
+          "pid": "tkf1b-g6065",
+          "relations": {},
+          "series_type": "SERIAL",
+          "title": "Chapman and Hall/CRC the Python"
+        },
+        "updated": "2025-05-02T11:59:07.776659+00:00"
+      },
+      {
+        "created": "2002-06-17T00:00:00+00:00",
+        "id": "x7mew-s6p57",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/x7mew-s6p57"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "_migration": {
+            "conference_title": "",
+            "eitems_ebl": [],
+            "eitems_external": [],
+            "eitems_file_links": [],
+            "eitems_has_ebl": false,
+            "eitems_has_external": false,
+            "eitems_has_files": false,
+            "eitems_has_proxy": false,
+            "eitems_has_safari": false,
+            "eitems_internal_notes": "",
+            "eitems_open_access": false,
+            "eitems_proxy": [],
+            "eitems_safari": [
+              {
+                "url": {
+                  "description": "ebook",
+                  "value": "https://learning.oreilly.com/library/view/-/1565925009/?ar"
+                }
+              }
+            ],
+            "has_journal": false,
+            "has_medium": false,
+            "has_related": false,
+            "has_serial": false,
+            "is_multipart": false,
+            "is_yellow_report": false,
+            "item_medium": [],
+            "items": [],
+            "journal_record_legacy_recids": [],
+            "record_type": "document",
+            "related": [
+              {
+                "related_recid": "781796",
+                "relation_description": "2nd ed.",
+                "relation_type": "edition"
+              },
+              {
+                "related_recid": "1037676",
+                "relation_description": "3rd ed.",
+                "relation_type": "edition"
+              },
+              {
+                "related_recid": "1236739",
+                "relation_description": "4th ed.",
+                "relation_type": "edition"
+              },
+              {
+                "related_recid": "1670689",
+                "relation_description": "5th ed.",
+                "relation_type": "edition"
+              }
+            ],
+            "serials": [],
+            "tags": [],
+            "volumes": [],
+            "volumes_identifiers": [],
+            "volumes_urls": []
+          },
+          "agency_code": "SzGeCERN",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "1565925009"
+            }
+          ],
+          "alternative_titles": [
+            {
+              "type": "SUBTITLE",
+              "value": "pocket reference"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Lutz, Mark",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "ISBN": "1565925009",
+            "urls": {
+              "is_placeholder": false,
+              "large": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=1565925009/LC.gif",
+              "medium": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=1565925009/MC.gif",
+              "small": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=1565925009/SC.gif"
+            }
+          },
+          "created_by": {
+            "type": "script",
+            "value": "migration"
+          },
+          "document_type": "BOOK",
+          "edition": "1st",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": null,
+                "eitem_type": "E-BOOK",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": null,
+                "open_access": false,
+                "pid": "mazam-7s230",
+                "urls": [
+                  {
+                    "description": "e-book",
+                    "value": "https://learning.oreilly.com/library/view/-/1565925009/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "identifiers": [
+            {
+              "scheme": "ISBN",
+              "value": "1565925009"
+            },
+            {
+              "scheme": "ISBN",
+              "value": "9781565925007"
+            }
+          ],
+          "imprint": {
+            "date": "1998-01-01",
+            "place": "Sebastopol, CA",
+            "publisher": "O'Reilly"
+          },
+          "internal_notes": [
+            {
+              "value": "gift: O'Neale, Stephen"
+            },
+            {
+              "value": "SAF201301-7"
+            }
+          ],
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "keywords": [
+            {
+              "source": "CERN",
+              "value": "scripting languages"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "legacy_recid": 560950,
+          "number_of_pages": "75",
+          "pid": "x7mew-s6p57",
+          "provider_recid": "560950",
+          "publication_year": "1998",
+          "relations": {
+            "edition": [
+              {
+                "pid_type": "docid",
+                "pid_value": "3j6v7-myw93",
+                "record_metadata": {
+                  "document_type": "BOOK",
+                  "edition": "2nd",
+                  "languages": [
+                    "ENG"
+                  ],
+                  "publication_year": "2002",
+                  "title": "Python"
+                },
+                "relation_type": "edition"
+              },
+              {
+                "pid_type": "docid",
+                "pid_value": "f7974-8pk71",
+                "record_metadata": {
+                  "document_type": "BOOK",
+                  "edition": "3rd",
+                  "languages": [
+                    "ENG"
+                  ],
+                  "publication_year": "2005",
+                  "title": "Python"
+                },
+                "relation_type": "edition"
+              },
+              {
+                "pid_type": "docid",
+                "pid_value": "nvdwr-8h716",
+                "record_metadata": {
+                  "document_type": "BOOK",
+                  "edition": "4th",
+                  "languages": [
+                    "ENG"
+                  ],
+                  "publication_year": "2010",
+                  "title": "Python"
+                },
+                "relation_type": "edition"
+              },
+              {
+                "pid_type": "docid",
+                "pid_value": "g6mjp-f4b12",
+                "record_metadata": {
+                  "document_type": "BOOK",
+                  "edition": "5th",
+                  "languages": [
+                    "ENG"
+                  ],
+                  "publication_year": "2014",
+                  "title": "Python"
+                },
+                "relation_type": "edition"
+              }
+            ]
+          },
+          "stock": {
+            "mediums": [
+              "E-BOOK"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "UDC",
+              "value": "004.438"
+            }
+          ],
+          "title": "Python"
+        },
+        "updated": "2024-07-04T17:06:55.553761+00:00"
+      },
+      {
+        "created": "2007-06-11T00:00:00+00:00",
+        "id": "f7974-8pk71",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/f7974-8pk71"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "_migration": {
+            "conference_title": "",
+            "eitems_ebl": [],
+            "eitems_external": [],
+            "eitems_file_links": [],
+            "eitems_has_ebl": false,
+            "eitems_has_external": false,
+            "eitems_has_files": false,
+            "eitems_has_proxy": false,
+            "eitems_has_safari": false,
+            "eitems_internal_notes": "",
+            "eitems_open_access": false,
+            "eitems_proxy": [],
+            "eitems_safari": [],
+            "has_journal": false,
+            "has_medium": false,
+            "has_related": false,
+            "has_serial": false,
+            "is_multipart": false,
+            "is_yellow_report": false,
+            "item_medium": [],
+            "items": [],
+            "journal_record_legacy_recids": [],
+            "record_type": "document",
+            "related": [
+              {
+                "related_recid": "560950",
+                "relation_description": "1st ed.",
+                "relation_type": "edition"
+              },
+              {
+                "related_recid": "781796",
+                "relation_description": "2nd ed.",
+                "relation_type": "edition"
+              },
+              {
+                "related_recid": "1236739",
+                "relation_description": "4th ed.",
+                "relation_type": "edition"
+              },
+              {
+                "related_recid": "1670689",
+                "relation_description": "5th ed.",
+                "relation_type": "edition"
+              }
+            ],
+            "serials": [],
+            "tags": [],
+            "volumes": [],
+            "volumes_identifiers": [],
+            "volumes_urls": []
+          },
+          "abstract": "Python is optimized for quality, productivity, portability, and integration.  Hundreds of thousands of Python developers around the world rely on Python for general-purpose tasks, Internet scripting, systems programming, user interfaces, and product customization. Available on all major computing platforms, including commercial versions of Unix, Linux, Windows, and Mac OS X, Python is portable, powerful and remarkable easy to use.  With its convenient, quick-reference format, Python Pocket Reference, 3rd Edition is the perfect on-the-job reference.   More importantly, it's now been refreshed",
+          "agency_code": "SzGeCERN",
+          "alternative_titles": [
+            {
+              "type": "SUBTITLE",
+              "value": "pocket reference, version 2.4"
+            },
+            {
+              "type": "ALTERNATIVE_TITLE",
+              "value": "Covers Python 2"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Lutz, Mark",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 1,
+            "can_circulate_items_count": 1,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 12,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "ISBN": "9780596009403",
+            "urls": {
+              "is_placeholder": false,
+              "large": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9780596009403/LC.gif",
+              "medium": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9780596009403/MC.gif",
+              "small": "https://secure.syndetics.com/index.aspx?client=cernlibrary&ISBN=9780596009403/SC.gif"
+            }
+          },
+          "created_by": {
+            "type": "script",
+            "value": "migration"
+          },
+          "document_type": "BOOK",
+          "edition": "3rd",
+          "eitems": {
+            "hits": [],
+            "total": 0
+          },
+          "identifiers": [
+            {
+              "scheme": "ISBN",
+              "value": "9780596009403"
+            },
+            {
+              "scheme": "ISBN",
+              "value": "0596009402"
+            }
+          ],
+          "imprint": {
+            "date": "2005-01-01",
+            "place": "Beijing",
+            "publisher": "O'Reilly"
+          },
+          "internal_notes": [
+            {
+              "value": "EBLlink deleted"
+            },
+            {
+              "value": "SAFLink deleted 202001"
+            }
+          ],
+          "items": {
+            "hits": [
+              {
+                "barcode": "CM-B00037125",
+                "circulation_restriction": "NO_RESTRICTION",
+                "identifiers": [
+                  {
+                    "scheme": "CALL_NUMBER",
+                    "value": "004.438.Python LUT"
+                  }
+                ],
+                "internal_location": {
+                  "location": {
+                    "name": "CERN Library"
+                  },
+                  "name": "Central Library"
+                },
+                "internal_location_pid": "a09gn-8wg12",
+                "isbn": null,
+                "medium": "PAPER",
+                "pid": "1ws2x-gsj07",
+                "shelf": "05",
+                "status": "CAN_CIRCULATE"
+              },
+              {
+                "barcode": "CM-B00036981",
+                "circulation_restriction": "NO_RESTRICTION",
+                "identifiers": [
+                  {
+                    "scheme": "CALL_NUMBER",
+                    "value": "004.438.Python LUT"
+                  }
+                ],
+                "internal_location": {
+                  "location": {
+                    "name": "CERN Library"
+                  },
+                  "name": "Central Library"
+                },
+                "internal_location_pid": "a09gn-8wg12",
+                "isbn": null,
+                "medium": "PAPER",
+                "pid": "cdrbc-gd520",
+                "shelf": "05",
+                "status": "MISSING"
+              }
+            ],
+            "on_shelf": {
+              "CERN Library": {
+                "Central Library": [
+                  {
+                    "barcode": "CM-B00037125",
+                    "circulation_restriction": "NO_RESTRICTION",
+                    "identifiers": [
+                      {
+                        "scheme": "CALL_NUMBER",
+                        "value": "004.438.Python LUT"
+                      }
+                    ],
+                    "internal_location": {
+                      "location": {
+                        "name": "CERN Library"
+                      },
+                      "name": "Central Library"
+                    },
+                    "internal_location_pid": "a09gn-8wg12",
+                    "isbn": null,
+                    "medium": "PAPER",
+                    "pid": "1ws2x-gsj07",
+                    "shelf": "05",
+                    "status": "CAN_CIRCULATE"
+                  },
+                  {
+                    "barcode": "CM-B00036981",
+                    "circulation_restriction": "NO_RESTRICTION",
+                    "identifiers": [
+                      {
+                        "scheme": "CALL_NUMBER",
+                        "value": "004.438.Python LUT"
+                      }
+                    ],
+                    "internal_location": {
+                      "location": {
+                        "name": "CERN Library"
+                      },
+                      "name": "Central Library"
+                    },
+                    "internal_location_pid": "a09gn-8wg12",
+                    "isbn": null,
+                    "medium": "PAPER",
+                    "pid": "cdrbc-gd520",
+                    "shelf": "05",
+                    "status": "MISSING"
+                  }
+                ],
+                "total": 2
+              }
+            },
+            "total": 2
+          },
+          "keywords": [
+            {
+              "source": "CERN",
+              "value": "object-oriented programming"
+            },
+            {
+              "source": "CERN",
+              "value": "tkinter GUI module"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "legacy_recid": 1037676,
+          "number_of_pages": "148",
+          "pid": "f7974-8pk71",
+          "provider_recid": "1037676",
+          "publication_year": "2005",
+          "relations": {
+            "edition": [
+              {
+                "pid_type": "docid",
+                "pid_value": "x7mew-s6p57",
+                "record_metadata": {
+                  "document_type": "BOOK",
+                  "edition": "1st",
+                  "languages": [
+                    "ENG"
+                  ],
+                  "publication_year": "1998",
+                  "title": "Python"
+                },
+                "relation_type": "edition"
+              },
+              {
+                "pid_type": "docid",
+                "pid_value": "3j6v7-myw93",
+                "record_metadata": {
+                  "document_type": "BOOK",
+                  "edition": "2nd",
+                  "languages": [
+                    "ENG"
+                  ],
+                  "publication_year": "2002",
+                  "title": "Python"
+                },
+                "relation_type": "edition"
+              },
+              {
+                "pid_type": "docid",
+                "pid_value": "nvdwr-8h716",
+                "record_metadata": {
+                  "document_type": "BOOK",
+                  "edition": "4th",
+                  "languages": [
+                    "ENG"
+                  ],
+                  "publication_year": "2010",
+                  "title": "Python"
+                },
+                "relation_type": "edition"
+              },
+              {
+                "pid_type": "docid",
+                "pid_value": "g6mjp-f4b12",
+                "record_metadata": {
+                  "document_type": "BOOK",
+                  "edition": "5th",
+                  "languages": [
+                    "ENG"
+                  ],
+                  "publication_year": "2014",
+                  "title": "Python"
+                },
+                "relation_type": "edition"
+              }
+            ]
+          },
+          "stock": {
+            "mediums": [
+              "PAPER"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "UDC",
+              "value": "004.438"
+            }
+          ],
+          "table_of_content": [
+            "Contents",
+            "Python Pocket Reference",
+            "Introduction",
+            "Conventions",
+            "Command-Line Options",
+            "Python Options",
+            "Program Specification",
+            "Environment Variables",
+            "Built-in Types and Operators",
+            "Operators and Precedence",
+            "Operations by Category",
+            "Sequence Operation Notes",
+            "Indexing: S[i]",
+            "Slicing: S[i:j]",
+            "Slicing: S[i:j:k]",
+            "Other",
+            "Specific Built-in Types",
+            "Numbers",
+            "Literals",
+            "Operations",
+            "Strings",
+            "Literals",
+            "Operations",
+            "String formatting",
+            "Template string substitution",
+            "String methods",
+            "Searching",
+            "Splitting and joining",
+            "Formatting",
+            "Content tests",
+            "The original string module",
+            "Unicode Strings",
+            "Literals",
+            "Operations",
+            "Lists",
+            "Literals and creationOperations",
+            "List comprehension expressions",
+            "Generator expressions",
+            "Dictionaries",
+            "Literals and creation",
+            "Operations",
+            "Tuples",
+            "Literals",
+            "Operations",
+            "Files",
+            "Input files",
+            "Output files",
+            "Any files",
+            "Attributes (all read-only)",
+            "Notes",
+            "Other Common Types",
+            "Boolean",
+            "Sets",
+            "Decimal",
+            "Type Conversions",
+            "Statements and Syntax",
+            "Syntax Rules",
+            "Name Rules",
+            "Name format",
+            "Name conventions",
+            "Specific Statements",
+            "Assignment",
+            "Augmented assignment",
+            "Expressions",
+            "apply( )-like call syntax",
+            "The print Statement",
+            "Extended print form",
+            "The if Statement",
+            "The while Statement",
+            "The for Statement",
+            "The pass StatementThe break Statement",
+            "The continue Statement",
+            "The del Statement",
+            "The exec Statement",
+            "The def Statement",
+            "lambda expressions",
+            "Function and method decorators",
+            "The return Statement",
+            "The yield Statement",
+            "Generators and iterators",
+            "The global Statement",
+            "The import Statement",
+            "Package imports",
+            "The from Statement",
+            "The class Statement",
+            "The try Statement",
+            "The raise Statement",
+            "Class exceptions",
+            "The assert Statement",
+            "Namespace and Scope Rules",
+            "Qualified Names: Object Namespaces",
+            "Unqualified Names: Lexical Scopes",
+            "Statically Nested Scopes",
+            "Object-Oriented Programming",
+            "Classes and Instances",
+            "Class objects provide default behaviorInstance objects are generated from classes",
+            "Inheritance rules",
+            "Pseudo-Private Attributes",
+            "Module privates",
+            "Class privates",
+            "New Style Classes",
+            "Operator Overloading Methods",
+            "For All Types",
+            "For Collections (Sequences, Mappings)",
+            "For Numbers (Binary Operators)",
+            "Basic binary methods",
+            "Right-side binary methods",
+            "Augmented binary methods",
+            "For Numbers (Other Operations)",
+            "Built-in Functions",
+            "Built-in Exceptions",
+            "Base Classes (Categories)",
+            "Specific Exceptions Raised",
+            "Warning Category Exceptions",
+            "Warnings Framework",
+            "Built-in Attributes",
+            "Built-in Modules",
+            "The sys ModuleThe string Module",
+            "Module Functions",
+            "Constants",
+            "The os System Module",
+            "Administrative Tools",
+            "Portability Constants",
+            "Shell Commands",
+            "Environment Tools",
+            "File Descriptor Tools",
+            "File Pathname Tools",
+            "Process Control",
+            "The os.path Module",
+            "The re Pattern-Matching Module",
+            "Module Functions",
+            "Regular Expression Objects",
+            "Match Objects",
+            "Pattern Syntax",
+            "Object Persistence Modules",
+            "anydbm and shelve Interfaces",
+            "Notes",
+            "pickle Interface",
+            "Notes",
+            "Tkinter GUI Module and Tools",
+            "Tkinter Example",
+            "Tkinter Core Widgets",
+            "Common Dialog Calls",
+            "Module tkMessageBox",
+            "Module tkSimpleDialog",
+            "Module tkColorChooser",
+            "Module tkFileDialog"
+          ],
+          "title": "Python"
+        },
+        "updated": "2024-07-04T15:27:41.235502+00:00"
+      }
+    ],
+    "total": 3163
+  },
+  "links": {
+    "next": "https://catalogue.library.cern/api/literature/?sort=bestmatch&q=(python)+AND+(NOT+document_type%3ASERIAL_ISSUE)&size=5&page=2",
+    "self": "https://catalogue.library.cern/api/literature/?sort=bestmatch&q=(python)+AND+(NOT+document_type%3ASERIAL_ISSUE)&size=5&page=1"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "message": "mocked response",
+  "hits": [
+    {
+      "id": "mock1",
+      "title": "Mocked paper"
+    }
+  ],
+  "total": 1
+}

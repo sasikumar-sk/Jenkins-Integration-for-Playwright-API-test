@@ -1,0 +1,1460 @@
+{
+  "aggregations": {
+    "access": {
+      "buckets": [
+        {
+          "doc_count": 6,
+          "key": 0,
+          "key_as_string": "false"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "availability": {
+      "buckets": [
+        {
+          "doc_count": 2,
+          "from": 1,
+          "key": "on shelf"
+        }
+      ]
+    },
+    "doctype": {
+      "buckets": [
+        {
+          "doc_count": 258,
+          "key": "BOOK"
+        },
+        {
+          "doc_count": 90,
+          "key": "MULTIMEDIA"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "language": {
+      "buckets": [
+        {
+          "doc_count": 347,
+          "key": "ENG"
+        },
+        {
+          "doc_count": 1,
+          "key": "POL"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "medium": {
+      "buckets": [
+        {
+          "doc_count": 256,
+          "key": "E-BOOK"
+        },
+        {
+          "doc_count": 90,
+          "key": "VIDEO"
+        },
+        {
+          "doc_count": 7,
+          "key": "AUDIOBOOK"
+        },
+        {
+          "doc_count": 2,
+          "key": "PAPER"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "relation": {
+      "buckets": [
+        {
+          "doc_count": 30,
+          "key": "serial"
+        },
+        {
+          "doc_count": 21,
+          "key": "edition"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    },
+    "tag": {
+      "buckets": [
+        {
+          "doc_count": 1,
+          "key": "THESIS"
+        }
+      ],
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0
+    }
+  },
+  "hits": {
+    "hits": [
+      {
+        "created": "2025-03-11T16:38:27.112596+00:00",
+        "id": "5gs7x-ksa96",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/5gs7x-ksa96"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "on1460391847"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Marrs, Tom",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "created_by": {
+            "type": "import",
+            "value": "safari"
+          },
+          "document_type": "BOOK",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": "",
+                "eitem_type": "E-BOOK",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": null,
+                "open_access": false,
+                "pid": "ewq81-10e57",
+                "urls": [
+                  {
+                    "description": "e-book",
+                    "login_required": false,
+                    "value": "https://learning.oreilly.com/library/view/-/9798341607095/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "identifiers": [
+            {
+              "material": "PRINT_VERSION",
+              "scheme": "ISBN",
+              "value": "9798341607095"
+            }
+          ],
+          "imprint": {
+            "publisher": "O'Reilly Media, Inc"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "languages": [
+            "ENG"
+          ],
+          "pid": "5gs7x-ksa96",
+          "publication_year": "2024",
+          "relations": {},
+          "stock": {
+            "mediums": [
+              "E-BOOK"
+            ]
+          },
+          "title": "JSON bei der Arbeit"
+        },
+        "updated": "2025-03-11T16:38:27.112600+00:00"
+      },
+      {
+        "created": "2024-06-29T18:27:20.743816+00:00",
+        "id": "0252j-25k05",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/0252j-25k05"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "abstract": "Download JSON data from an online location into your iOS apps. You'll work a sample list of contacts with email addresses, phone numbers, names, and other relevant information. You'll then see how to format the data properly and list it in a TableView to be more user-friendly to read for display in your app. Working with JSON in iOS is one of the most useful pieces of knowledge for a developer. It's used on a daily basis in a wide variety of apps. Displaying online data in an app is an essential part of the iOS ecosystem. Learn how to download text from a server and then format the data properly with Codable in Swift. Using custom cells, you'll build a TableView then place everything in an adaptable AutoLayout. Finally, you'll populate the TableView with the formatted JSON data represented by an array of custom items. By the end of this video, you'll be able to incorporate JSON data into your apps in a user-friendly and easily accessible manner. What You Will Learn Format JSON data properly with Codable in Swift Build a TableView with custom cells Place data in adaptable AutoLayout Who This Video Is For iOS developers with advanced skills in Xcode and Swift who want to incorporate JSON data displayed properly in their apps.",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "on1235777346"
+            }
+          ],
+          "alternative_titles": [
+            {
+              "type": "SUBTITLE",
+              "value": "Downloading and Listing JSON Data in TableView in iOS"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Radev, Tihomir",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            },
+            {
+              "full_name": "O'Reilly for Higher Education (Firm",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            },
+            {
+              "full_name": "Safari, an O'Reilly Media Company",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "created_by": {
+            "type": "import",
+            "value": "safari"
+          },
+          "document_type": "MULTIMEDIA",
+          "edition": "1st",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": "",
+                "eitem_type": "VIDEO",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": null,
+                "open_access": false,
+                "pid": "y401w-63a23",
+                "urls": [
+                  {
+                    "description": "video",
+                    "login_required": false,
+                    "value": "https://learning.oreilly.com/library/view/-/9781484268230/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "identifiers": [
+            {
+              "material": "PRINT_VERSION",
+              "scheme": "ISBN",
+              "value": "9781484268230"
+            },
+            {
+              "material": "PRINT_VERSION",
+              "scheme": "ISBN",
+              "value": "1484268237"
+            }
+          ],
+          "imprint": {
+            "publisher": "Apress"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "keywords": [
+            {
+              "source": "SAFARI",
+              "value": "Streaming video"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Internet videos"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Vidéo en continu"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Vidéos sur Internet"
+            },
+            {
+              "source": "SAFARI",
+              "value": "streaming video"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "pid": "0252j-25k05",
+          "publication_year": "2020",
+          "relations": {},
+          "stock": {
+            "mediums": [
+              "VIDEO"
+            ]
+          },
+          "title": "Working with JSON in Xcode"
+        },
+        "updated": "2024-07-08T18:03:01.308371+00:00"
+      },
+      {
+        "created": "2024-06-29T18:42:29.204226+00:00",
+        "id": "df8m9-nxe69",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/df8m9-nxe69"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "abstract": "Security expert Neil Madden, the author of \"API Security in Action,\" explains self-contained tokens and JWTs in detail.",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "on1312645047"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Madden, Neil",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            },
+            {
+              "full_name": "Manning (Firm",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "created_by": {
+            "type": "import",
+            "value": "safari"
+          },
+          "document_type": "MULTIMEDIA",
+          "edition": "1st",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": "",
+                "eitem_type": "VIDEO",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": null,
+                "open_access": false,
+                "pid": "e470t-54d86",
+                "urls": [
+                  {
+                    "description": "video",
+                    "login_required": false,
+                    "value": "https://learning.oreilly.com/library/view/-/10000MNLV202163/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "imprint": {
+            "place": "Place of publication not identified",
+            "publisher": "Manning Publications"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "keywords": [
+            {
+              "source": "SAFARI",
+              "value": "Computer software"
+            },
+            {
+              "source": "SAFARI",
+              "value": "JSON (Document markup language"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Computer security"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Computer Security"
+            },
+            {
+              "source": "SAFARI",
+              "value": "JSON (Langage de balisage"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Sécurité informatique"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "pid": "df8m9-nxe69",
+          "publication_year": "2020",
+          "relations": {},
+          "stock": {
+            "mediums": [
+              "VIDEO"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "LOC",
+              "value": "QA76.9.A25"
+            },
+            {
+              "scheme": "DEWEY",
+              "value": "005.8"
+            }
+          ],
+          "title": "JSON web tokens and alternatives"
+        },
+        "updated": "2024-07-08T18:24:44.562908+00:00"
+      },
+      {
+        "created": "2024-06-29T18:56:09.667677+00:00",
+        "id": "3a6sc-c0795",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/3a6sc-c0795"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "abstract": "Working with JSON in Android is one of the most useful skills for a developer. This is used on a daily basis in all kinds of apps. Displaying online data in an app is an essential part of the Android ecosystem. This video course will teach you how to download JSON data from an online location into the Android app. For example a list of contacts with email addresses, phone numbers, names, and other relevant information. Then you'll learn how to format the data properly and list it in a TableView to be more user friendly to read by the user of the app. What You'll Learn How to download text from a server How to properly format JSON data How to build a custom ListView with custom rows How to place everything in the layout How to populate the ListView with the formatted JSON data represented by a List of custom items Who This Video Is For People with more advanced skills in Android Studio and Java are targeted, but the video will also be useful for total beginners.",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "on1378794247"
+            }
+          ],
+          "alternative_titles": [
+            {
+              "type": "SUBTITLE",
+              "value": "download and list JSON data in ListView in Android"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Radev, Tihomir",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            },
+            {
+              "full_name": "Apress (Firm",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "created_by": {
+            "type": "import",
+            "value": "safari"
+          },
+          "document_type": "MULTIMEDIA",
+          "edition": "1st",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": "",
+                "eitem_type": "VIDEO",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": null,
+                "open_access": false,
+                "pid": "9q93s-9v850",
+                "urls": [
+                  {
+                    "description": "video",
+                    "login_required": false,
+                    "value": "https://learning.oreilly.com/library/view/-/9781484293737/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "identifiers": [
+            {
+              "material": "VIDEO",
+              "scheme": "ISBN",
+              "value": "9781484293737"
+            },
+            {
+              "material": "VIDEO",
+              "scheme": "ISBN",
+              "value": "1484293738"
+            }
+          ],
+          "imprint": {
+            "place": "Place of publication not identified",
+            "publisher": "Apress"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "keywords": [
+            {
+              "source": "SAFARI",
+              "value": "Application software"
+            },
+            {
+              "source": "SAFARI",
+              "value": "JSON (Document markup language"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Mobile computing"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Logiciels d'application"
+            },
+            {
+              "source": "SAFARI",
+              "value": "JSON (Langage de balisage"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Informatique mobile"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "pid": "3a6sc-c0795",
+          "publication_year": "2023",
+          "relations": {},
+          "stock": {
+            "mediums": [
+              "VIDEO"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "LOC",
+              "value": "QA76.76.A65"
+            },
+            {
+              "scheme": "DEWEY",
+              "value": "005.3"
+            }
+          ],
+          "title": "Working with JSON in Android Studio"
+        },
+        "updated": "2024-07-08T18:49:39.544218+00:00"
+      },
+      {
+        "created": "2024-06-29T18:25:25.858414+00:00",
+        "id": "mb661-1zb69",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/mb661-1zb69"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "abstract": "Explore how JavaScript objects and JSON are used for coding in JavaScript About This Video Get to grips with JSON and its data structure Discover how to use JSON data in your frontend applications Learn how to use JSON data within web pages In Detail JSON is a text-based, easy-to-read data interchange format, and plays a crucial role in the frontend and backend of web development. This video course will help you to get a brief overview of JSON data and show you how to use it within web pages. Starting with an introduction to JSON, this fast-paced course will help you understand how JavaScript objects are related to JSON data. You'll then learn how to validate JSON data structure and delve into data types, objects, and arrays. This course will also teach you how to iterate through JSON data, connect to a JSON file, parse JSON data, and convert JavaScript objects into strings using the stringify method. By the end of this course, you'll have gained a fundamental understanding of JSON data and knowledge of how it is used within web pages.",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "on1232112790"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Svekis, Laurence",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            },
+            {
+              "full_name": "Safari, an O'Reilly Media Company",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "created_by": {
+            "type": "import",
+            "value": "safari"
+          },
+          "document_type": "MULTIMEDIA",
+          "edition": "1st",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": "",
+                "eitem_type": "VIDEO",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": null,
+                "open_access": false,
+                "pid": "2dda5-y0c66",
+                "urls": [
+                  {
+                    "description": "video",
+                    "login_required": false,
+                    "value": "https://learning.oreilly.com/library/view/-/9781800569027/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "identifiers": [
+            {
+              "material": "PRINT_VERSION",
+              "scheme": "ISBN",
+              "value": "9781800569027"
+            }
+          ],
+          "imprint": {
+            "publisher": "Packt Publishing"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "languages": [
+            "ENG"
+          ],
+          "pid": "mb661-1zb69",
+          "publication_year": "2020",
+          "relations": {},
+          "stock": {
+            "mediums": [
+              "VIDEO"
+            ]
+          },
+          "title": "A Quick Introduction to JavaScript JSON"
+        },
+        "updated": "2024-07-08T18:00:21.650130+00:00"
+      },
+      {
+        "created": "2018-02-05T00:00:00+00:00",
+        "id": "38vdv-szb37",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/38vdv-szb37"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "_migration": {
+            "conference_title": "",
+            "eitems_ebl": [],
+            "eitems_external": [],
+            "eitems_file_links": [],
+            "eitems_has_ebl": false,
+            "eitems_has_external": false,
+            "eitems_has_files": false,
+            "eitems_has_proxy": false,
+            "eitems_has_safari": false,
+            "eitems_internal_notes": "SAF201802",
+            "eitems_open_access": false,
+            "eitems_proxy": [],
+            "eitems_safari": [
+              {
+                "url": {
+                  "description": "ebook",
+                  "value": "https://learning.oreilly.com/library/view/-/9781484231173/?ar"
+                }
+              }
+            ],
+            "has_journal": false,
+            "has_medium": false,
+            "has_related": false,
+            "has_serial": false,
+            "is_multipart": false,
+            "is_yellow_report": false,
+            "item_medium": [],
+            "items": [],
+            "journal_record_legacy_recids": [],
+            "record_type": "document",
+            "related": [],
+            "serials": [],
+            "tags": [],
+            "volumes": [],
+            "volumes_identifiers": [],
+            "volumes_urls": []
+          },
+          "agency_code": "SzGeCERN",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "on1020288661"
+            }
+          ],
+          "alternative_titles": [
+            {
+              "type": "SUBTITLE",
+              "value": "a problem-solution approach"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Grinberg, Alex",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "created_by": {
+            "type": "script",
+            "value": "batchuploader"
+          },
+          "document_type": "BOOK",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": null,
+                "eitem_type": "E-BOOK",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": "SAF201802",
+                "open_access": false,
+                "pid": "jq9bx-wsb46",
+                "urls": [
+                  {
+                    "description": "e-book",
+                    "value": "https://learning.oreilly.com/library/view/-/9781484231173/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "imprint": {
+            "date": "2018-01-01",
+            "place": "Berkeley, CA",
+            "publisher": "Apress"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "keywords": [
+            {
+              "source": "SAF",
+              "value": "XML (Document markup language)"
+            },
+            {
+              "source": "SAF",
+              "value": "JSON (Document markup language)"
+            },
+            {
+              "source": "SAF",
+              "value": "Clientserver computing"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "legacy_recid": 2303492,
+          "pid": "38vdv-szb37",
+          "provider_recid": "2303492",
+          "publication_year": "2018",
+          "relations": {},
+          "source": "SAF",
+          "stock": {
+            "mediums": [
+              "E-BOOK"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "LOC",
+              "value": "QA76.76.H94"
+            }
+          ],
+          "title": "XML and JSON recipes for SQL Server"
+        },
+        "updated": "2024-07-06T21:47:32.004970+00:00"
+      },
+      {
+        "created": "2024-06-29T18:35:19.630871+00:00",
+        "id": "kshh2-3xy32",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/kshh2-3xy32"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "abstract": "Build your own JavaScript mini projects with this full stack JavaScript coding course About This Video Create dynamic data-driven web applications with JavaScript and boost the performance of your web pages Create interactive web content generated from JSON data Learn to connect to web APIs and make AJAX requests with JavaScript In Detail AJAX allows you to communicate with the server, exchange data, and update the page without having to refresh the page. The two major features of AJAX allow you to do the following: Make requests to the server without reloading the page Receive and work with data from the server This course is loaded with 25 plus mini projects to help you learn and practice connecting to endpoints, returning JSON data, making fetch requests, using JSON data with JavaScript to create page content, and explore GET POST PUT and DELETE with JavaScript AJAX. Learn how to create and manipulate page elements with modern JavaScript code to build interactive and fully dynamic web applications driven by JSON data. Get user selections, make the AJAX request from the user select, and output to the web page using JavaScript code. Explore fun interactive projects to make AJAX requests coming from page data and output the content to the page. Dynamic page elements generated from AJAX requests to endpoints and return JSON data and use it within JavaScript to update and manipulate DOM page elements. Create games, get JSON data, and let users explore the data. Dynamically generate page content with JavaScript. Connect to web endpoints - get JSON data and output that content into your web page with JavaScript. AJAX practice mini projects will help you learn more about JSON data such as making fetch requests, debugging, and more. Who this book is for This course is for modern web designers and web developers; anyone who wants to learn how to load JSON data and apply the contents to their web pages and learn more about making AJAX requests via JavaScript; JavaScript coders who want to learn more about AJAX; and individuals who want to learn more about JavaScript fetch and modern request methods.",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "on1277512047"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Svekis, Laurence",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            },
+            {
+              "full_name": "Safari, an O'Reilly Media Company",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "created_by": {
+            "type": "import",
+            "value": "safari"
+          },
+          "document_type": "MULTIMEDIA",
+          "edition": "1st",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": "",
+                "eitem_type": "VIDEO",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": null,
+                "open_access": false,
+                "pid": "ynnhz-dqx79",
+                "urls": [
+                  {
+                    "description": "video",
+                    "login_required": false,
+                    "value": "https://learning.oreilly.com/library/view/-/9781803243504/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "identifiers": [
+            {
+              "material": "PRINT_VERSION",
+              "scheme": "ISBN",
+              "value": "9781803243504"
+            }
+          ],
+          "imprint": {
+            "publisher": "Packt Publishing"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "keywords": [
+            {
+              "source": "SAFARI",
+              "value": "Streaming video"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Internet videos"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Vidéo en continu"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Vidéos sur Internet"
+            },
+            {
+              "source": "SAFARI",
+              "value": "streaming video"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "pid": "kshh2-3xy32",
+          "publication_year": "2021",
+          "relations": {},
+          "stock": {
+            "mediums": [
+              "VIDEO"
+            ]
+          },
+          "title": "25+ Projects with AJAX, JavaScript, and JSON"
+        },
+        "updated": "2024-07-08T18:12:54.831532+00:00"
+      },
+      {
+        "created": "2024-06-29T18:51:36.946955+00:00",
+        "id": "jzpyt-dhe77",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/jzpyt-dhe77"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "abstract": "Learn to use JavaScript and Google Apps Script as the backend code to use a Google spreadsheet as a data source for your website. Create a Google Sheets spreadsheet in your Google account. Add some data and then output it as JSON that can be retrieved via fetch request to your website. The source code is included so you can build your own version of the application. This course includes Creating a spreadsheet with data and making the JSON object dynamic How to output your sheet data as an array in a web app endpoint doGet() method for your web app Restructure your JSON object with JavaScript object properties values that come dynamically from the sheet headers Iterate through the sheet rows of content and assign row values into the data object to output JSON for API endpoints Use JavaScript Fetch to get data Use JavaScript Fetch to get JSON sheet data from a web app URL and output it in the console Use JavaScript to output JSON data to a web page Add click event buttons to interactive page buttons using JavaScript to send information from a web page to a Google Sheet Use an Apps Script to POST data from a web page to a Google Sheet using the doPost() method Use an Apps script to post data to a Google Sheet and connect the data with JSON Explore how to use a Google Apps Script IDE to debug and troubleshoot the application Use JavaScript Fetch and formData methods Troubleshoot and debug common CORS issues with Google Apps Web Apps Use Logger to log values and text functions to Google Apps Script.",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "on1357151147"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Svekis, Laurence",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            },
+            {
+              "full_name": "Manning (Firm",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "created_by": {
+            "type": "import",
+            "value": "safari"
+          },
+          "document_type": "MULTIMEDIA",
+          "edition": "1st",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": "",
+                "eitem_type": "VIDEO",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": null,
+                "open_access": false,
+                "pid": "75f27-gpq52",
+                "urls": [
+                  {
+                    "description": "video",
+                    "login_required": false,
+                    "value": "https://learning.oreilly.com/library/view/-/10000DIHV2022101/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "imprint": {
+            "place": "Place of publication not identified",
+            "publisher": "Manning Publications"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "keywords": [
+            {
+              "source": "SAFARI",
+              "value": "Application program interfaces (Computer software"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Ajax (Web site development technology"
+            },
+            {
+              "source": "SAFARI",
+              "value": "JavaScript (Computer program language"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Interfaces de programmation d'applications"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Ajax (Technologie de développement de sites Web"
+            },
+            {
+              "source": "SAFARI",
+              "value": "JavaScript (Langage de programmation"
+            },
+            {
+              "source": "SAFARI",
+              "value": "APIs (interfaces"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "pid": "jzpyt-dhe77",
+          "publication_year": "2022",
+          "relations": {},
+          "stock": {
+            "mediums": [
+              "VIDEO"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "LOC",
+              "value": "QA76.76.A63"
+            },
+            {
+              "scheme": "DEWEY",
+              "value": "005.3"
+            }
+          ],
+          "title": "Create dynamic JavaScript pages with AJAX, APIs, and JSON"
+        },
+        "updated": "2024-07-08T18:37:28.199613+00:00"
+      },
+      {
+        "created": "2024-06-29T18:48:20.357154+00:00",
+        "id": "wqzpx-axg14",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/wqzpx-axg14"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "abstract": "Improve and enhance your web site's functionality by connecting your web pages directly to your data. User requests and queries will go to the data stored in your Google Sheets and get results returned in real time. Learn how to connect to Google Sheets with JavaScript Fetch, and return queries in JSON. See how to use the data directly on your web pages and within your web applications. Making data requests using fetch provides a seamless experience to the user without page reload. The user interacts with the web page, triggering the events that call to the data source to return the results. Using Google Sheets provides a serverless way--without a database--to query a web data source. Get practical experience building a sample dynamic web app. The example app creates a URL generator for your website that uses a simple input field to specify the appropriate Google Sheet, and then returns the results from interactive web input fields specific to each request.",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "on1346541480"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Svekis, Laurence",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            },
+            {
+              "full_name": "Manning (Firm",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "created_by": {
+            "type": "import",
+            "value": "safari"
+          },
+          "document_type": "MULTIMEDIA",
+          "edition": "1st",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": "",
+                "eitem_type": "VIDEO",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": null,
+                "open_access": false,
+                "pid": "sfb9q-sfb08",
+                "urls": [
+                  {
+                    "description": "video",
+                    "login_required": false,
+                    "value": "https://learning.oreilly.com/library/view/-/10000DIHV2022103/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "imprint": {
+            "place": "Place of publication not identified",
+            "publisher": "Manning Publications"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "keywords": [
+            {
+              "source": "SAFARI",
+              "value": "Document markup languages"
+            },
+            {
+              "source": "SAFARI",
+              "value": "JSON (Document markup language"
+            },
+            {
+              "source": "SAFARI",
+              "value": "JavaScript (Computer program language"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Langages de balisage"
+            },
+            {
+              "source": "SAFARI",
+              "value": "JSON (Langage de balisage"
+            },
+            {
+              "source": "SAFARI",
+              "value": "JavaScript (Langage de programmation"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "pid": "wqzpx-axg14",
+          "publication_year": "2022",
+          "relations": {},
+          "stock": {
+            "mediums": [
+              "VIDEO"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "LOC",
+              "value": "QA76.76.H94"
+            },
+            {
+              "scheme": "DEWEY",
+              "value": "006.7/4"
+            }
+          ],
+          "title": "Learn how to connect data to web pages with JSON and JavaScript Fetch"
+        },
+        "updated": "2024-07-08T18:32:59.122646+00:00"
+      },
+      {
+        "created": "2024-06-29T18:49:26.504721+00:00",
+        "id": "sm3j7-20h95",
+        "links": {
+          "self": "https://catalogue.library.cern/api/literature/sm3j7-20h95"
+        },
+        "metadata": {
+          "$schema": "https://cds-ils.cern.ch/schemas/documents/document-v2.0.0.json",
+          "abstract": "Improve and speed up the functionality of your web site by connecting your web pages directly to your data, using Google Sheets as a serverless way to access your data without a database. User requests and queries will go to the data stored in your Google Sheets and get results returned in real time--without waiting for the page to reload. Learn how to create a Google Sheets spreadsheet, connect to Google Sheets with JavaScript Fetch, and return queries in JSON. See how to use the data directly on your web pages and within your web applications. Get practical experience building a sample dynamic web app. The example app creates a URL generator for your website that uses a simple input field to specify the appropriate Google Sheet, and then returns the results from interactive web input fields specific to each request. Learn by doing: build a fun, interactive project from scratch. Learn by repeating: Practice connecting to JSON data with JavaScript. Learn by exploring: Investigate options for using Google Services for web content.",
+          "alternative_identifiers": [
+            {
+              "scheme": "SAFARI",
+              "value": "on1348111773"
+            }
+          ],
+          "authors": [
+            {
+              "full_name": "Svekis, Laurence",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            },
+            {
+              "full_name": "Manning (Firm",
+              "roles": [
+                "AUTHOR"
+              ],
+              "type": "PERSON"
+            }
+          ],
+          "circulation": {
+            "active_loans_count": 0,
+            "available_items_for_loan_count": 0,
+            "can_circulate_items_count": 0,
+            "items_for_reference_count": 0,
+            "overbooked": false,
+            "overdue_loans_count": 0,
+            "past_loans_count": 0,
+            "pending_loans_count": 0
+          },
+          "cover_metadata": {
+            "urls": {
+              "is_placeholder": true,
+              "large": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "medium": "https://catalogue.library.cern/api/static/images/placeholder.png",
+              "small": "https://catalogue.library.cern/api/static/images/placeholder.png"
+            }
+          },
+          "created_by": {
+            "type": "import",
+            "value": "safari"
+          },
+          "document_type": "MULTIMEDIA",
+          "edition": "1st",
+          "eitems": {
+            "hits": [
+              {
+                "bucket_id": null,
+                "description": "",
+                "eitem_type": "VIDEO",
+                "files": [],
+                "identifiers": [],
+                "internal_notes": null,
+                "open_access": false,
+                "pid": "g74qp-c4t71",
+                "urls": [
+                  {
+                    "description": "video",
+                    "login_required": false,
+                    "value": "https://learning.oreilly.com/library/view/-/10000DIHV2022118/?ar"
+                  }
+                ]
+              }
+            ],
+            "total": 1
+          },
+          "imprint": {
+            "place": "Place of publication not identified",
+            "publisher": "Manning Publications"
+          },
+          "items": {
+            "hits": [],
+            "on_shelf": {},
+            "total": 0
+          },
+          "keywords": [
+            {
+              "source": "SAFARI",
+              "value": "Application program interfaces (Computer software"
+            },
+            {
+              "source": "SAFARI",
+              "value": "JSON (Document markup language"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Ajax (Web site development technology"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Interfaces de programmation d'applications"
+            },
+            {
+              "source": "SAFARI",
+              "value": "JSON (Langage de balisage"
+            },
+            {
+              "source": "SAFARI",
+              "value": "Ajax (Technologie de développement de sites Web"
+            },
+            {
+              "source": "SAFARI",
+              "value": "APIs (interfaces"
+            }
+          ],
+          "languages": [
+            "ENG"
+          ],
+          "pid": "sm3j7-20h95",
+          "publication_year": "2022",
+          "relations": {},
+          "stock": {
+            "mediums": [
+              "VIDEO"
+            ]
+          },
+          "subjects": [
+            {
+              "scheme": "LOC",
+              "value": "QA76.76.A63"
+            },
+            {
+              "scheme": "DEWEY",
+              "value": "005.3"
+            }
+          ],
+          "title": "Learn to use data in a Google Sheet to output as JSON with AJAX"
+        },
+        "updated": "2024-07-08T18:34:34.915898+00:00"
+      }
+    ],
+    "total": 348
+  },
+  "links": {
+    "next": "https://catalogue.library.cern/api/literature/?q=(json)+AND+(NOT+document_type%3ASERIAL_ISSUE)&size=10&page=3",
+    "prev": "https://catalogue.library.cern/api/literature/?q=(json)+AND+(NOT+document_type%3ASERIAL_ISSUE)&size=10&page=1",
+    "self": "https://catalogue.library.cern/api/literature/?q=(json)+AND+(NOT+document_type%3ASERIAL_ISSUE)&size=10&page=2"
+  }
+}
